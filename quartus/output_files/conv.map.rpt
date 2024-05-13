@@ -1,0 +1,948 @@
+Analysis & Synthesis report for conv
+Mon May  6 20:40:50 2024
+Quartus Prime Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis DSP Block Usage Summary
+  9. State Machine - |conv|fsm_reg:FSM|state
+ 10. Registers Removed During Synthesis
+ 11. Removed Registers Triggering Further Register Optimizations
+ 12. General Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Parameter Settings for User Entity Instance: Top-level Entity: |conv
+ 15. Parameter Settings for User Entity Instance: initializable_cntr:iBlock
+ 16. Parameter Settings for User Entity Instance: initializable_cntr:iBlock|adder:conv_cntr_adder
+ 17. Parameter Settings for User Entity Instance: initializable_cntr:iBlock|muxNto1:conv_cntr_mux2to1
+ 18. Parameter Settings for User Entity Instance: initializable_cntr:iBlock|register:conv_cntr_register
+ 19. Parameter Settings for User Entity Instance: initializable_cntr:jBlock
+ 20. Parameter Settings for User Entity Instance: initializable_cntr:jBlock|adder:conv_cntr_adder
+ 21. Parameter Settings for User Entity Instance: initializable_cntr:jBlock|muxNto1:conv_cntr_mux2to1
+ 22. Parameter Settings for User Entity Instance: initializable_cntr:jBlock|register:conv_cntr_register
+ 23. Parameter Settings for User Entity Instance: cntrK:kBlock
+ 24. Parameter Settings for User Entity Instance: cntrK:kBlock|subtractor_reg:conv_cntr_subtractor_reg
+ 25. Parameter Settings for User Entity Instance: cntrK:kBlock|muxNto1:conv_cntr_mux2to1
+ 26. Parameter Settings for User Entity Instance: register:memX_addr_block_reg
+ 27. Parameter Settings for User Entity Instance: memY_addr_block:memY_addr_block_reg
+ 28. Parameter Settings for User Entity Instance: memY_addr_block:memY_addr_block_reg|subtractor:conv_memY_sub
+ 29. Parameter Settings for User Entity Instance: memY_addr_block:memY_addr_block_reg|muxNto1:conv_memY_mux2to1
+ 30. Parameter Settings for User Entity Instance: memY_addr_block:memY_addr_block_reg|register:conv_memY_register
+ 31. Parameter Settings for User Entity Instance: adder_reg:memZ_addr_block_reg
+ 32. Parameter Settings for User Entity Instance: adder_reg:memZ_addr_block_reg|adder:A_plus_B
+ 33. Parameter Settings for User Entity Instance: adder_reg:memZ_addr_block_reg|register:A_plus_B_register
+ 34. Parameter Settings for User Entity Instance: dataZ_block:dataZ_block_reg
+ 35. Parameter Settings for User Entity Instance: dataZ_block:dataZ_block_reg|multiplier:conv_dataZ_multiplier
+ 36. Parameter Settings for User Entity Instance: dataZ_block:dataZ_block_reg|adder:conv_dataZ_adder
+ 37. Parameter Settings for User Entity Instance: dataZ_block:dataZ_block_reg|register:conv_dataZ_register
+ 38. Parameter Settings for User Entity Instance: comparatorLessThan:comparator_I_sizeY
+ 39. Parameter Settings for User Entity Instance: comparatorLessThan:comparator_I_sizeX
+ 40. Parameter Settings for User Entity Instance: comparatorLessThan:comparator_J_sizeX
+ 41. Parameter Settings for User Entity Instance: comparatorLessOrEqualThan:comparator_J_valid
+ 42. Port Connectivity Checks: "comparatorLessOrEqualThan:comparator_J_valid"
+ 43. Port Connectivity Checks: "comparatorLessThan:comparator_J_sizeX"
+ 44. Port Connectivity Checks: "comparatorLessThan:comparator_I_sizeX"
+ 45. Port Connectivity Checks: "comparatorLessThan:comparator_I_sizeY"
+ 46. Port Connectivity Checks: "adder_reg:memZ_addr_block_reg"
+ 47. Port Connectivity Checks: "memY_addr_block:memY_addr_block_reg"
+ 48. Port Connectivity Checks: "register:memX_addr_block_reg"
+ 49. Port Connectivity Checks: "cntrK:kBlock|subtractor_reg:conv_cntr_subtractor_reg"
+ 50. Port Connectivity Checks: "cntrK:kBlock"
+ 51. Port Connectivity Checks: "initializable_cntr:jBlock"
+ 52. Port Connectivity Checks: "initializable_cntr:iBlock|adder:conv_cntr_adder"
+ 53. Port Connectivity Checks: "initializable_cntr:iBlock"
+ 54. Post-Synthesis Netlist Statistics for Top Partition
+ 55. Elapsed Time Per Partition
+ 56. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2023  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++---------------------------------+------------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Mon May  6 20:40:50 2024          ;
+; Quartus Prime Version           ; 23.1std.0 Build 991 11/28/2023 SC Lite Edition ;
+; Revision Name                   ; conv                                           ;
+; Top-level Entity Name           ; conv                                           ;
+; Family                          ; Cyclone V                                      ;
+; Logic utilization (in ALMs)     ; N/A                                            ;
+; Total registers                 ; 74                                             ;
+; Total pins                      ; 64                                             ;
+; Total virtual pins              ; 0                                              ;
+; Total block memory bits         ; 0                                              ;
+; Total DSP Blocks                ; 1                                              ;
+; Total HSSI RX PCSs              ; 0                                              ;
+; Total HSSI PMA RX Deserializers ; 0                                              ;
+; Total HSSI TX PCSs              ; 0                                              ;
+; Total HSSI PMA TX Serializers   ; 0                                              ;
+; Total PLLs                      ; 0                                              ;
+; Total DLLs                      ; 0                                              ;
++---------------------------------+------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CGXFC7C7F23C8     ;                    ;
+; Top-level entity name                                                           ; conv               ; conv               ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                          ;
++-------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path    ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                   ; Library ;
++-------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+; ../conv.sv                          ; yes             ; User SystemVerilog HDL File  ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv                          ;         ;
+; ../conv_adder.v                     ; yes             ; User Verilog HDL File        ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder.v                     ;         ;
+; ../conv_adder_reg.sv                ; yes             ; User SystemVerilog HDL File  ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder_reg.sv                ;         ;
+; ../conv_comparatorLessOrEqualThan.v ; yes             ; User Verilog HDL File        ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessOrEqualThan.v ;         ;
+; ../conv_cntrK.sv                    ; yes             ; User SystemVerilog HDL File  ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv                    ;         ;
+; ../conv_comparatorLessThan.v        ; yes             ; User Verilog HDL File        ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v        ;         ;
+; ../conv_dataZ_block.sv              ; yes             ; User SystemVerilog HDL File  ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_dataZ_block.sv              ;         ;
+; ../conv_fsm_reg.sv                  ; yes             ; User SystemVerilog HDL File  ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_fsm_reg.sv                  ;         ;
+; ../conv_initalizable_cntr.sv        ; yes             ; User SystemVerilog HDL File  ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv        ;         ;
+; ../conv_memY_addr_block.sv          ; yes             ; User SystemVerilog HDL File  ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_memY_addr_block.sv          ;         ;
+; ../conv_multiplier.sv               ; yes             ; User SystemVerilog HDL File  ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_multiplier.sv               ;         ;
+; ../conv_muxNto1.v                   ; yes             ; User Verilog HDL File        ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_muxNto1.v                   ;         ;
+; ../conv_register.v                  ; yes             ; User Verilog HDL File        ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_register.v                  ;         ;
+; ../conv_subtractor.sv               ; yes             ; User SystemVerilog HDL File  ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor.sv               ;         ;
+; ../conv_subtractor_reg.sv           ; yes             ; User SystemVerilog HDL File  ; /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor_reg.sv           ;         ;
++-------------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimate of Logic utilization (ALMs needed) ; 69        ;
+;                                             ;           ;
+; Combinational ALUT usage for logic          ; 110       ;
+;     -- 7 input functions                    ; 0         ;
+;     -- 6 input functions                    ; 27        ;
+;     -- 5 input functions                    ; 9         ;
+;     -- 4 input functions                    ; 11        ;
+;     -- <=3 input functions                  ; 63        ;
+;                                             ;           ;
+; Dedicated logic registers                   ; 74        ;
+;                                             ;           ;
+; I/O pins                                    ; 64        ;
+;                                             ;           ;
+; Total DSP Blocks                            ; 1         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; clk~input ;
+; Maximum fan-out                             ; 74        ;
+; Total fan-out                               ; 846       ;
+; Average fan-out                             ; 2.70      ;
++---------------------------------------------+-----------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                           ;
++---------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------+---------------------------+--------------+
+; Compilation Hierarchy Node                        ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                   ; Entity Name               ; Library Name ;
++---------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------+---------------------------+--------------+
+; |conv                                             ; 110 (3)             ; 74 (0)                    ; 0                 ; 1          ; 64   ; 0            ; |conv                                                                 ; conv                      ; work         ;
+;    |adder_reg:memZ_addr_block_reg|                ; 8 (0)               ; 6 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|adder_reg:memZ_addr_block_reg                                   ; adder_reg                 ; work         ;
+;       |adder:A_plus_B|                            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|adder_reg:memZ_addr_block_reg|adder:A_plus_B                    ; adder                     ; work         ;
+;       |register:A_plus_B_register|                ; 7 (7)               ; 6 (6)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|adder_reg:memZ_addr_block_reg|register:A_plus_B_register        ; register                  ; work         ;
+;    |cntrK:kBlock|                                 ; 8 (0)               ; 5 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|cntrK:kBlock                                                    ; cntrK                     ; work         ;
+;       |muxNto1:conv_cntr_mux2to1|                 ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|cntrK:kBlock|muxNto1:conv_cntr_mux2to1                          ; muxNto1                   ; work         ;
+;       |subtractor_reg:conv_cntr_subtractor_reg|   ; 5 (5)               ; 5 (5)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|cntrK:kBlock|subtractor_reg:conv_cntr_subtractor_reg            ; subtractor_reg            ; work         ;
+;    |comparatorLessOrEqualThan:comparator_J_valid| ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|comparatorLessOrEqualThan:comparator_J_valid                    ; comparatorLessOrEqualThan ; work         ;
+;    |comparatorLessThan:comparator_I_sizeX|        ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|comparatorLessThan:comparator_I_sizeX                           ; comparatorLessThan        ; work         ;
+;    |comparatorLessThan:comparator_I_sizeY|        ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|comparatorLessThan:comparator_I_sizeY                           ; comparatorLessThan        ; work         ;
+;    |comparatorLessThan:comparator_J_sizeX|        ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|comparatorLessThan:comparator_J_sizeX                           ; comparatorLessThan        ; work         ;
+;    |dataZ_block:dataZ_block_reg|                  ; 17 (0)              ; 16 (0)                    ; 0                 ; 1          ; 0    ; 0            ; |conv|dataZ_block:dataZ_block_reg                                     ; dataZ_block               ; work         ;
+;       |adder:conv_dataZ_adder|                    ; 16 (16)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|dataZ_block:dataZ_block_reg|adder:conv_dataZ_adder              ; adder                     ; work         ;
+;       |multiplier:conv_dataZ_multiplier|          ; 0 (0)               ; 0 (0)                     ; 0                 ; 1          ; 0    ; 0            ; |conv|dataZ_block:dataZ_block_reg|multiplier:conv_dataZ_multiplier    ; multiplier                ; work         ;
+;       |register:conv_dataZ_register|              ; 1 (1)               ; 16 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |conv|dataZ_block:dataZ_block_reg|register:conv_dataZ_register        ; register                  ; work         ;
+;    |fsm_reg:FSM|                                  ; 24 (24)             ; 27 (27)                   ; 0                 ; 0          ; 0    ; 0            ; |conv|fsm_reg:FSM                                                     ; fsm_reg                   ; work         ;
+;    |initializable_cntr:iBlock|                    ; 9 (3)               ; 5 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|initializable_cntr:iBlock                                       ; initializable_cntr        ; work         ;
+;       |adder:conv_cntr_adder|                     ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|initializable_cntr:iBlock|adder:conv_cntr_adder                 ; adder                     ; work         ;
+;       |register:conv_cntr_register|               ; 1 (1)               ; 5 (5)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|initializable_cntr:iBlock|register:conv_cntr_register           ; register                  ; work         ;
+;    |initializable_cntr:jBlock|                    ; 13 (7)              ; 5 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|initializable_cntr:jBlock                                       ; initializable_cntr        ; work         ;
+;       |adder:conv_cntr_adder|                     ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|initializable_cntr:jBlock|adder:conv_cntr_adder                 ; adder                     ; work         ;
+;       |register:conv_cntr_register|               ; 1 (1)               ; 5 (5)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|initializable_cntr:jBlock|register:conv_cntr_register           ; register                  ; work         ;
+;    |memY_addr_block:memY_addr_block_reg|          ; 5 (0)               ; 5 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|memY_addr_block:memY_addr_block_reg                             ; memY_addr_block           ; work         ;
+;       |register:conv_memY_register|               ; 0 (0)               ; 5 (5)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|memY_addr_block:memY_addr_block_reg|register:conv_memY_register ; register                  ; work         ;
+;       |subtractor:conv_memY_sub|                  ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|memY_addr_block:memY_addr_block_reg|subtractor:conv_memY_sub    ; subtractor                ; work         ;
+;    |register:memX_addr_block_reg|                 ; 6 (6)               ; 5 (5)                     ; 0                 ; 0          ; 0    ; 0            ; |conv|register:memX_addr_block_reg                                    ; register                  ; work         ;
++---------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------+---------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary  ;
++---------------------------------+-------------+
+; Statistic                       ; Number Used ;
++---------------------------------+-------------+
+; Independent 9x9                 ; 1           ;
+; Total number of DSP blocks      ; 1           ;
+;                                 ;             ;
+; Fixed Point Unsigned Multiplier ; 1           ;
++---------------------------------+-------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |conv|fsm_reg:FSM|state                                                                                                                                                                      ;
++-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+-----------+
+; Name      ; state.S16 ; state.S15 ; state.S14 ; state.S13 ; state.S12 ; state.S11 ; state.S10 ; state.S9 ; state.S8 ; state.S7 ; state.S6 ; state.S5 ; state.S4 ; state.S3 ; state.S2 ; state.S1 ; state.S17 ;
++-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+-----------+
+; state.S1  ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0         ;
+; state.S2  ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 1        ; 0         ;
+; state.S3  ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0        ; 1        ; 0         ;
+; state.S4  ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0        ; 0        ; 1        ; 0         ;
+; state.S5  ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 1        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S6  ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 1        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S7  ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 1        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S8  ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 1        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S9  ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S10 ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S11 ; 0         ; 0         ; 0         ; 0         ; 0         ; 1         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S12 ; 0         ; 0         ; 0         ; 0         ; 1         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S13 ; 0         ; 0         ; 0         ; 1         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S14 ; 0         ; 0         ; 1         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S15 ; 0         ; 1         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S16 ; 1         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 0         ;
+; state.S17 ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0         ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 0        ; 1        ; 1         ;
++-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+-----------+
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                          ;
++--------------------------------------------------------------------+----------------------------------------+
+; Register name                                                      ; Reason for Removal                     ;
++--------------------------------------------------------------------+----------------------------------------+
+; fsm_reg:FSM|memX_addr_clr_o                                        ; Merged with fsm_reg:FSM|i_clr_o        ;
+; fsm_reg:FSM|memY_addr_clr_o                                        ; Merged with fsm_reg:FSM|i_clr_o        ;
+; fsm_reg:FSM|memZ_addr_clr_o                                        ; Merged with fsm_reg:FSM|i_clr_o        ;
+; fsm_reg:FSM|memY_addr_en_o                                         ; Merged with fsm_reg:FSM|memX_addr_en_o ;
+; fsm_reg:FSM|state~4                                                ; Lost fanout                            ;
+; fsm_reg:FSM|state~5                                                ; Lost fanout                            ;
+; fsm_reg:FSM|state~6                                                ; Lost fanout                            ;
+; fsm_reg:FSM|state~7                                                ; Lost fanout                            ;
+; fsm_reg:FSM|state.S2                                               ; Merged with fsm_reg:FSM|i_clr_o        ;
+; fsm_reg:FSM|state.S11                                              ; Merged with fsm_reg:FSM|selY_o         ;
+; fsm_reg:FSM|state.S10                                              ; Merged with fsm_reg:FSM|selJ_o         ;
+; fsm_reg:FSM|state.S3                                               ; Merged with fsm_reg:FSM|j_clr_o        ;
+; fsm_reg:FSM|state.S13                                              ; Merged with fsm_reg:FSM|selK_o         ;
+; fsm_reg:FSM|state.S9                                               ; Merged with fsm_reg:FSM|selI_o         ;
+; initializable_cntr:iBlock|register:conv_cntr_register|data_o[5..7] ; Lost fanout                            ;
+; initializable_cntr:jBlock|register:conv_cntr_register|data_o[5..7] ; Lost fanout                            ;
+; Total Number of Removed Registers = 20                             ;                                        ;
++--------------------------------------------------------------------+----------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                             ;
++-----------------------------------------------------------------+--------------------+------------------------------------------------------------------+
+; Register name                                                   ; Reason for Removal ; Registers Removed due to This Register                           ;
++-----------------------------------------------------------------+--------------------+------------------------------------------------------------------+
+; fsm_reg:FSM|state~5                                             ; Lost Fanouts       ; initializable_cntr:iBlock|register:conv_cntr_register|data_o[7], ;
+;                                                                 ;                    ; initializable_cntr:iBlock|register:conv_cntr_register|data_o[6], ;
+;                                                                 ;                    ; initializable_cntr:iBlock|register:conv_cntr_register|data_o[5]  ;
+; initializable_cntr:jBlock|register:conv_cntr_register|data_o[7] ; Lost Fanouts       ; initializable_cntr:jBlock|register:conv_cntr_register|data_o[6], ;
+;                                                                 ;                    ; initializable_cntr:jBlock|register:conv_cntr_register|data_o[5]  ;
++-----------------------------------------------------------------+--------------------+------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 74    ;
+; Number of registers using Synchronous Clear  ; 31    ;
+; Number of registers using Synchronous Load   ; 15    ;
+; Number of registers using Asynchronous Clear ; 74    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 47    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
+; 3:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |conv|register:memX_addr_block_reg|data_o[4]                                    ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |conv|adder_reg:memZ_addr_block_reg|register:A_plus_B_register|data_o[0]        ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |conv|initializable_cntr:iBlock|register:conv_cntr_register|data_o[4]           ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 5 LEs                ; 5 LEs                  ; Yes        ; |conv|initializable_cntr:jBlock|register:conv_cntr_register|data_o[2]           ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 0 LEs                ; 32 LEs                 ; Yes        ; |conv|dataZ_block:dataZ_block_reg|register:conv_dataZ_register|data_o[6]        ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |conv|initializable_cntr:iBlock|register:conv_cntr_register|data_o[5]           ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |conv|memY_addr_block:memY_addr_block_reg|register:conv_memY_register|data_o[0] ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |conv|initializable_cntr:jBlock|register:conv_cntr_register|data_o[7]           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |conv ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                              ;
+; ADDR_WIDTH     ; 5     ; Signed Integer                              ;
++----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: initializable_cntr:iBlock ;
++----------------+-------+-----------------------------------------------+
+; Parameter Name ; Value ; Type                                          ;
++----------------+-------+-----------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                ;
++----------------+-------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: initializable_cntr:iBlock|adder:conv_cntr_adder ;
++----------------+-------+---------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                ;
++----------------+-------+---------------------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                                      ;
++----------------+-------+---------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: initializable_cntr:iBlock|muxNto1:conv_cntr_mux2to1 ;
++----------------+-------+-------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                    ;
++----------------+-------+-------------------------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                                          ;
+; SEL_WIDTH      ; 1     ; Signed Integer                                                          ;
++----------------+-------+-------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: initializable_cntr:iBlock|register:conv_cntr_register ;
++----------------+-------+---------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                      ;
++----------------+-------+---------------------------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                                            ;
++----------------+-------+---------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: initializable_cntr:jBlock ;
++----------------+-------+-----------------------------------------------+
+; Parameter Name ; Value ; Type                                          ;
++----------------+-------+-----------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                ;
++----------------+-------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: initializable_cntr:jBlock|adder:conv_cntr_adder ;
++----------------+-------+---------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                ;
++----------------+-------+---------------------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                                      ;
++----------------+-------+---------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: initializable_cntr:jBlock|muxNto1:conv_cntr_mux2to1 ;
++----------------+-------+-------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                    ;
++----------------+-------+-------------------------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                                          ;
+; SEL_WIDTH      ; 1     ; Signed Integer                                                          ;
++----------------+-------+-------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: initializable_cntr:jBlock|register:conv_cntr_register ;
++----------------+-------+---------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                      ;
++----------------+-------+---------------------------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                                            ;
++----------------+-------+---------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: cntrK:kBlock ;
++----------------+-------+----------------------------------+
+; Parameter Name ; Value ; Type                             ;
++----------------+-------+----------------------------------+
+; DATA_WIDTH     ; 5     ; Signed Integer                   ;
++----------------+-------+----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: cntrK:kBlock|subtractor_reg:conv_cntr_subtractor_reg ;
++----------------+-------+--------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                     ;
++----------------+-------+--------------------------------------------------------------------------+
+; DATA_WIDTH     ; 5     ; Signed Integer                                                           ;
++----------------+-------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: cntrK:kBlock|muxNto1:conv_cntr_mux2to1 ;
++----------------+-------+------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                       ;
++----------------+-------+------------------------------------------------------------+
+; DATA_WIDTH     ; 5     ; Signed Integer                                             ;
+; SEL_WIDTH      ; 1     ; Signed Integer                                             ;
++----------------+-------+------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: register:memX_addr_block_reg ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: memY_addr_block:memY_addr_block_reg ;
++----------------+-------+---------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                    ;
++----------------+-------+---------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                          ;
++----------------+-------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: memY_addr_block:memY_addr_block_reg|subtractor:conv_memY_sub ;
++----------------+-------+----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                                                   ;
++----------------+-------+----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: memY_addr_block:memY_addr_block_reg|muxNto1:conv_memY_mux2to1 ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                              ;
++----------------+-------+-----------------------------------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                                                    ;
+; SEL_WIDTH      ; 1     ; Signed Integer                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: memY_addr_block:memY_addr_block_reg|register:conv_memY_register ;
++----------------+-------+-------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                ;
++----------------+-------+-------------------------------------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                                                      ;
++----------------+-------+-------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adder_reg:memZ_addr_block_reg ;
++----------------+-------+---------------------------------------------------+
+; Parameter Name ; Value ; Type                                              ;
++----------------+-------+---------------------------------------------------+
+; DATA_WIDTH     ; 6     ; Signed Integer                                    ;
++----------------+-------+---------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adder_reg:memZ_addr_block_reg|adder:A_plus_B ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; DATA_WIDTH     ; 6     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: adder_reg:memZ_addr_block_reg|register:A_plus_B_register ;
++----------------+-------+------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                         ;
++----------------+-------+------------------------------------------------------------------------------+
+; DATA_WIDTH     ; 6     ; Signed Integer                                                               ;
++----------------+-------+------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: dataZ_block:dataZ_block_reg ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: dataZ_block:dataZ_block_reg|multiplier:conv_dataZ_multiplier ;
++----------------+-------+----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------+
+; DATA_WIDTH     ; 8     ; Signed Integer                                                                   ;
++----------------+-------+----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: dataZ_block:dataZ_block_reg|adder:conv_dataZ_adder ;
++----------------+-------+------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                   ;
++----------------+-------+------------------------------------------------------------------------+
+; DATA_WIDTH     ; 16    ; Signed Integer                                                         ;
++----------------+-------+------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: dataZ_block:dataZ_block_reg|register:conv_dataZ_register ;
++----------------+-------+------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                         ;
++----------------+-------+------------------------------------------------------------------------------+
+; DATA_WIDTH     ; 16    ; Signed Integer                                                               ;
++----------------+-------+------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: comparatorLessThan:comparator_I_sizeY ;
++----------------+-------+-----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                      ;
++----------------+-------+-----------------------------------------------------------+
+; DATA_WIDTH     ; 5     ; Signed Integer                                            ;
++----------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: comparatorLessThan:comparator_I_sizeX ;
++----------------+-------+-----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                      ;
++----------------+-------+-----------------------------------------------------------+
+; DATA_WIDTH     ; 5     ; Signed Integer                                            ;
++----------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: comparatorLessThan:comparator_J_sizeX ;
++----------------+-------+-----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                      ;
++----------------+-------+-----------------------------------------------------------+
+; DATA_WIDTH     ; 5     ; Signed Integer                                            ;
++----------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: comparatorLessOrEqualThan:comparator_J_valid ;
++----------------+-------+------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                             ;
++----------------+-------+------------------------------------------------------------------+
+; DATA_WIDTH     ; 5     ; Signed Integer                                                   ;
++----------------+-------+------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "comparatorLessOrEqualThan:comparator_J_valid"                                                                                                                                   ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                          ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; A_i  ; Input ; Warning  ; Input port expression (8 bits) is wider than the input port (5 bits) it drives.  The 3 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; B_i  ; Input ; Warning  ; Input port expression (8 bits) is wider than the input port (5 bits) it drives.  The 3 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "comparatorLessThan:comparator_J_sizeX"                                                                                                                                          ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                          ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; A_i  ; Input ; Warning  ; Input port expression (8 bits) is wider than the input port (5 bits) it drives.  The 3 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "comparatorLessThan:comparator_I_sizeX"                                                                                                                                          ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                          ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; A_i  ; Input ; Warning  ; Input port expression (8 bits) is wider than the input port (5 bits) it drives.  The 3 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "comparatorLessThan:comparator_I_sizeY"                                                                                                                                          ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                                                                                                          ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; A_i  ; Input ; Warning  ; Input port expression (8 bits) is wider than the input port (5 bits) it drives.  The 3 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "adder_reg:memZ_addr_block_reg"                                                                                                                                                          ;
++------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port       ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; A_in       ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (6 bits) it drives.  The 26 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; A_in[5..1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
+; A_in[0]    ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
++------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "memY_addr_block:memY_addr_block_reg"                                                                                                  ;
++-------------+--------+----------+--------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                                                                        ;
++-------------+--------+----------+--------------------------------------------------------------------------------------------------------------------------------+
+; memY_addr_o ; Output ; Warning  ; Output or bidir port (8 bits) is wider than the port expression (5 bits) it drives; bit(s) "memY_addr_o[7..5]" have no fanouts ;
++-------------+--------+----------+--------------------------------------------------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "register:memX_addr_block_reg"                                                                                               ;
++--------+--------+----------+---------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                                   ;
++--------+--------+----------+---------------------------------------------------------------------------------------------------------------------------+
+; data_o ; Output ; Warning  ; Output or bidir port (8 bits) is wider than the port expression (5 bits) it drives; bit(s) "data_o[7..5]" have no fanouts ;
++--------+--------+----------+---------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "cntrK:kBlock|subtractor_reg:conv_cntr_subtractor_reg"                                                                                                                                  ;
++-----------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                                                                                                                                            ;
++-----------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; B_i       ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (5 bits) it drives.  The 27 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; B_i[4..1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
+; B_i[0]    ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
++-----------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "cntrK:kBlock"                                                                                                                                                          ;
++-------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type   ; Severity ; Details                                                                                                                                                               ;
++-------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; k_out ; Output ; Warning  ; Output or bidir port (5 bits) is smaller than the port expression (8 bits) it drives.  The 3 most-significant bit(s) in the port expression will be connected to GND. ;
++-------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "initializable_cntr:jBlock"                                                                     ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port            ; Type   ; Severity ; Details                                                                             ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+; c_nxt_out[7..5] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-----------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "initializable_cntr:iBlock|adder:conv_cntr_adder"                                                                                                                                        ;
++------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port       ; Type  ; Severity ; Details                                                                                                                                                                            ;
++------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; re_A       ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; re_A[7..1] ; Input ; Info     ; Stuck at GND                                                                                                                                                                       ;
+; re_A[0]    ; Input ; Info     ; Stuck at VCC                                                                                                                                                                       ;
++------------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "initializable_cntr:iBlock"                                                                                                                                                                           ;
++------------------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port                   ; Type   ; Severity ; Details                                                                                                                                                                            ;
++------------------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; initial_value_in       ; Input  ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
+; initial_value_in[7..1] ; Input  ; Info     ; Stuck at GND                                                                                                                                                                       ;
+; initial_value_in[0]    ; Input  ; Info     ; Stuck at VCC                                                                                                                                                                       ;
+; c_nxt_out[7..5]        ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                                ;
++------------------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 74                          ;
+;     CLR               ; 27                          ;
+;     ENA CLR           ; 16                          ;
+;     ENA CLR SCLR      ; 16                          ;
+;     ENA CLR SCLR SLD  ; 15                          ;
+; arriav_lcell_comb     ; 110                         ;
+;     arith             ; 26                          ;
+;         1 data inputs ; 10                          ;
+;         2 data inputs ; 16                          ;
+;     normal            ; 79                          ;
+;         0 data inputs ; 1                           ;
+;         2 data inputs ; 21                          ;
+;         3 data inputs ; 10                          ;
+;         4 data inputs ; 11                          ;
+;         5 data inputs ; 9                           ;
+;         6 data inputs ; 27                          ;
+;     shared            ; 5                           ;
+;         2 data inputs ; 5                           ;
+; arriav_mac            ; 1                           ;
+; boundary_port         ; 64                          ;
+;                       ;                             ;
+; Max LUT depth         ; 4.40                        ;
+; Average LUT depth     ; 2.23                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+    Info: Processing started: Mon May  6 20:40:37 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off conv -c conv
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv
+    Info (12023): Found entity 1: simple_dual_port_ram_single_clk_sv File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv Line: 14
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv
+    Info (12023): Found entity 1: conv File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder.v
+    Info (12023): Found entity 1: adder File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder.v Line: 48
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder_reg.sv
+    Info (12023): Found entity 1: adder_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder_reg.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessOrEqualThan.v
+    Info (12023): Found entity 1: comparatorLessOrEqualThan File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessOrEqualThan.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv
+    Info (12023): Found entity 1: cntrK File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v
+    Info (12023): Found entity 1: comparatorLessThan File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v Line: 47
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_dataZ_block.sv
+    Info (12023): Found entity 1: dataZ_block File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_dataZ_block.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_fsm_reg.sv
+    Info (12023): Found entity 1: fsm_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_fsm_reg.sv Line: 13
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv
+    Info (12023): Found entity 1: initializable_cntr File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_memY_addr_block.sv
+    Info (12023): Found entity 1: memY_addr_block File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_memY_addr_block.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_multiplier.sv
+    Info (12023): Found entity 1: multiplier File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_multiplier.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_muxNto1.v
+    Info (12023): Found entity 1: muxNto1 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_muxNto1.v Line: 58
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_register.v
+    Info (12023): Found entity 1: register File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_register.v Line: 47
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor.sv
+    Info (12023): Found entity 1: subtractor File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor_reg.sv
+    Info (12023): Found entity 1: subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor_reg.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv
+    Info (12023): Found entity 1: conv_TB File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 1
+Info (12127): Elaborating entity "conv" for the top level hierarchy
+Info (12128): Elaborating entity "fsm_reg" for hierarchy "fsm_reg:FSM" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 90
+Info (12128): Elaborating entity "initializable_cntr" for hierarchy "initializable_cntr:iBlock" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 108
+Warning (10230): Verilog HDL assignment warning at conv_initalizable_cntr.sv(18): truncated value with size 32 to match size of target (8) File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv Line: 18
+Info (12128): Elaborating entity "adder" for hierarchy "initializable_cntr:iBlock|adder:conv_cntr_adder" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv Line: 30
+Info (12128): Elaborating entity "muxNto1" for hierarchy "initializable_cntr:iBlock|muxNto1:conv_cntr_mux2to1" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv Line: 48
+Info (12128): Elaborating entity "register" for hierarchy "initializable_cntr:iBlock|register:conv_cntr_register" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv Line: 64
+Info (12128): Elaborating entity "cntrK" for hierarchy "cntrK:kBlock" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 142
+Info (12128): Elaborating entity "subtractor_reg" for hierarchy "cntrK:kBlock|subtractor_reg:conv_cntr_subtractor_reg" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv Line: 28
+Info (12128): Elaborating entity "muxNto1" for hierarchy "cntrK:kBlock|muxNto1:conv_cntr_mux2to1" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv Line: 45
+Info (12128): Elaborating entity "memY_addr_block" for hierarchy "memY_addr_block:memY_addr_block_reg" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 177
+Info (12128): Elaborating entity "subtractor" for hierarchy "memY_addr_block:memY_addr_block_reg|subtractor:conv_memY_sub" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_memY_addr_block.sv Line: 29
+Info (12128): Elaborating entity "adder_reg" for hierarchy "adder_reg:memZ_addr_block_reg" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 194
+Info (12128): Elaborating entity "adder" for hierarchy "adder_reg:memZ_addr_block_reg|adder:A_plus_B" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder_reg.sv Line: 25
+Info (12128): Elaborating entity "register" for hierarchy "adder_reg:memZ_addr_block_reg|register:A_plus_B_register" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder_reg.sv Line: 39
+Info (12128): Elaborating entity "dataZ_block" for hierarchy "dataZ_block:dataZ_block_reg" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 211
+Info (12128): Elaborating entity "multiplier" for hierarchy "dataZ_block:dataZ_block_reg|multiplier:conv_dataZ_multiplier" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_dataZ_block.sv Line: 28
+Info (12128): Elaborating entity "adder" for hierarchy "dataZ_block:dataZ_block_reg|adder:conv_dataZ_adder" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_dataZ_block.sv Line: 41
+Info (12128): Elaborating entity "register" for hierarchy "dataZ_block:dataZ_block_reg|register:conv_dataZ_register" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_dataZ_block.sv Line: 57
+Info (12128): Elaborating entity "comparatorLessThan" for hierarchy "comparatorLessThan:comparator_I_sizeY" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 224
+Info (12128): Elaborating entity "comparatorLessOrEqualThan" for hierarchy "comparatorLessOrEqualThan:comparator_J_valid" File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 263
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "k_reg[7]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+    Warning (12110): Net "k_reg[6]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+    Warning (12110): Net "k_reg[5]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+Warning (12020): Port "re_A" on the entity instantiation of "conv_cntr_adder" is connected to a signal of width 32. The formal width of the signal in the module is 8.  The extra bits will be ignored. File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv Line: 30
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "k_reg[7]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+    Warning (12110): Net "k_reg[6]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+    Warning (12110): Net "k_reg[5]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "k_reg[7]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+    Warning (12110): Net "k_reg[6]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+    Warning (12110): Net "k_reg[5]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+Warning (12011): Net is missing source, defaulting to GND
+    Warning (12110): Net "k_reg[7]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+    Warning (12110): Net "k_reg[6]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+    Warning (12110): Net "k_reg[5]" is missing source, defaulting to GND File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 32
+Warning (12241): 11 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 10 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 198 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 29 input pins
+    Info (21059): Implemented 35 output pins
+    Info (21061): Implemented 133 logic cells
+    Info (21062): Implemented 1 DSP elements
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 20 warnings
+    Info: Peak virtual memory: 462 megabytes
+    Info: Processing ended: Mon May  6 20:40:50 2024
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:34
+
+

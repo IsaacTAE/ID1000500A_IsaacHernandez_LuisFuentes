@@ -1,0 +1,32 @@
+Quartus Prime Archive log --	/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/quartus/isaac_hernandez.qarlog
+
+Archive:	/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/quartus/isaac_hernandez.qar
+Date:		Sat May  4 23:14:13 2024
+Quartus Prime		23.1std.0 Build 991 11/28/2023 SC Lite Edition
+
+	=========== Files Selected: ===========
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder.v
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder_reg.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessOrEqualThan.v
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_dataZ_block.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_fsm_reg.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_memY_addr_block.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_multiplier.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_muxNto1.v
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_register.v
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor_reg.sv
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/quartus/conv.qpf
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/quartus/conv.qsf
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/quartus/db/conv.cmp.rdb
+/home/ihc/intel/23.1std/quartus/linux64/assignment_defaults.qdf
+	======= Total: 21 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

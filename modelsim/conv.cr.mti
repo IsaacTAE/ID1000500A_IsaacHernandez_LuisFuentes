@@ -1,0 +1,120 @@
+/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module simple_dual_port_ram_single_clk_sv
+
+Top level modules:
+	simple_dual_port_ram_single_clk_sv
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder_reg.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder_reg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder_reg
+
+Top level modules:
+	adder_reg
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder.v {1 {vlog -work work -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module initializable_cntr
+
+Top level modules:
+	initializable_cntr
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_dataZ_block.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_dataZ_block.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module dataZ_block
+
+Top level modules:
+	dataZ_block
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor_reg.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor_reg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module subtractor_reg
+
+Top level modules:
+	subtractor_reg
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module conv
+
+Top level modules:
+	conv
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_muxNto1.v {1 {vlog -work work -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_muxNto1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module muxNto1
+
+Top level modules:
+	muxNto1
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cntrK
+
+Top level modules:
+	cntrK
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_register.v {1 {vlog -work work -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_fsm_reg.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_fsm_reg.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fsm_reg
+
+Top level modules:
+	fsm_reg
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_memY_addr_block.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_memY_addr_block.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module memY_addr_block
+
+Top level modules:
+	memY_addr_block
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module conv_TB
+
+Top level modules:
+	conv_TB
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_multiplier.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_multiplier.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v {1 {vlog -work work -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comparatorLessThan
+
+Top level modules:
+	comparatorLessThan
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessOrEqualThan.v {1 {vlog -work work -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessOrEqualThan.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comparatorLessOrEqualThan
+
+Top level modules:
+	comparatorLessOrEqualThan
+
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module subtractor
+
+Top level modules:
+	subtractor
+
+} {} {}}

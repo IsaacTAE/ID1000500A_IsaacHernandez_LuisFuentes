@@ -1,0 +1,120 @@
+# Loading project conv
+vsim work.conv_TB
+# vsim work.conv_TB 
+# Start time: 12:54:24 on May 09,2024
+# Loading sv_std.std
+# Loading work.conv_TB
+# Loading work.conv
+# Loading work.fsm_reg
+# Loading work.initializable_cntr
+# Loading work.adder
+# Loading work.muxNto1
+# Loading work.register
+# Loading work.cntrK
+# Loading work.subtractor_reg
+# Loading work.memY_addr_block
+# Loading work.subtractor
+# Loading work.adder_reg
+# Loading work.dataZ_block
+# Loading work.multiplier
+# Loading work.comparatorLessThan
+# Loading work.comparatorLessOrEqualThan
+# Loading work.simple_dual_port_ram_single_clk_sv
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'initial_value_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/iBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 98
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 're_A'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder.v(52).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/iBlock/conv_cntr_adder File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 're_A'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder.v(52).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/jBlock/conv_cntr_adder File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 134
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor_reg.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_register.v(58).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 150
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_memY_addr_block.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 166
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder_reg.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 185
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 219
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 232
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 245
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 258
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 258
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'write_data_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'write_data_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 99
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (5) for port 'read_data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 99
+wave.do
+# invalid command name "wave.do"
+do wave.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'initial_value_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/iBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 98
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 're_A'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder.v(52).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/iBlock/conv_cntr_adder File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 're_A'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder.v(52).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/jBlock/conv_cntr_adder File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_initalizable_cntr.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 134
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_subtractor_reg.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_cntrK.sv Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_register.v(58).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 150
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_memY_addr_block.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 166
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_adder_reg.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 185
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 219
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 232
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 245
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 258
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (8) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_comparatorLessOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv.sv Line: 258
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'write_data_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 63
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (32) for port 'write_data_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 81
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 99
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (5) for port 'read_data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv Line: 99
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_simple_dual_port_ram_single_clk_sv.sv(31)
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram
+# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv(133)
+#    Time: 2040 ps  Iteration: 0  Instance: /conv_TB
+# Break in Module conv_TB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv line 133
+# End time: 12:55:25 on May 09,2024, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 23
