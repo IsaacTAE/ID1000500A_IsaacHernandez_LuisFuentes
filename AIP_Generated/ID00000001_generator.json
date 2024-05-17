@@ -1,0 +1,57 @@
+{
+    "ipdata": {
+        "comment": "Modulos del proyecto de convolucionador. Agregado un Dummy Core (?)",
+        "enom": "PROYCONV01",
+        "ipid": "00000001"
+    },
+    "memories": {
+        "cfgReg": {
+            "comment": "Registro de configuracion",
+            "enom": "CConfigReg",
+            "size": "1",
+            "val": "5'b00110"
+        },
+        "memIn": [
+            {
+                "comment": "Memoria de entrada X",
+                "enom": "MMem_in_X",
+                "size": "32",
+                "val": "5'b00000"
+            },
+            {
+                "comment": "Memoria de entrada Y",
+                "enom": "MMem_In_Y",
+                "size": "32",
+                "val": "5'b00010"
+            }
+        ],
+        "memInStream": {
+        },
+        "memOut": [
+            {
+                "comment": "Memoria de salida",
+                "enom": "MMem_out",
+                "size": "32",
+                "val": "5'b00100"
+            }
+        ],
+        "memOutStream": {
+        }
+    },
+    "regs": {
+        "reg1": "Interrupt_A",
+        "reg10": "Test0",
+        "reg11": "",
+        "reg12": "",
+        "reg13": "",
+        "reg14": "",
+        "reg15": "",
+        "reg2": "INT_Test",
+        "reg3": "",
+        "reg4": "",
+        "reg5": "",
+        "reg6": "",
+        "reg7": "",
+        "reg9": "PackingData"
+    }
+}

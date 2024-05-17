@@ -1,0 +1,12 @@
+type,alphaID,numID,size,mode,description
+IPID,PROYCONV01,0x00000001,,,Modulos del proyecto de convolucionador. Agregado un Dummy Core (?)
+CFG,MMem_in_X,0b00000,32,W,Memoria de entrada X
+CFG,MMem_In_Y,0b00010,32,W,Memoria de entrada Y
+CFG,MMem_out,0b00100,32,R,Memoria de salida
+CFG,AMem_in_X,0b00001,1,W,Set Write Address Pointer of MMem_in_X
+CFG,AMem_In_Y,0b00011,1,W,Set Write Address Pointer of MMem_In_Y
+CFG,AMem_out,0b00101,1,W,Set Read Address Pointer of MMem_out
+CFG,CConfigReg,0b00110,1,W,Registro de configuracion
+CFG,AConfigReg,0b00111,1,W,Set Write Address of CConfigReg
+CFG,STATUS,0b11110,1,B,IP status register
+CFG,IPID,0b11111,1,R,IP ID
