@@ -1,26 +1,26 @@
 {
     "ipdata": {
-        "comment": "Modulos del proyecto de convolucionador. Agregado un Dummy Core (?)",
-        "enom": "PROYCONV01",
-        "ipid": "00000001"
+        "comment": "Convolucionador con dos memorias externas y una de salida",
+        "enom": "CONV",
+        "ipid": "40048008"
     },
     "memories": {
         "cfgReg": {
             "comment": "Registro de configuracion",
-            "enom": "CConfigReg",
+            "enom": "CConfReg",
             "size": "1",
             "val": "5'b00110"
         },
         "memIn": [
             {
                 "comment": "Memoria de entrada X",
-                "enom": "MMem_in_X",
+                "enom": "MMemX",
                 "size": "32",
                 "val": "5'b00000"
             },
             {
                 "comment": "Memoria de entrada Y",
-                "enom": "MMem_In_Y",
+                "enom": "MMemY",
                 "size": "32",
                 "val": "5'b00010"
             }
@@ -29,9 +29,9 @@
         },
         "memOut": [
             {
-                "comment": "Memoria de salida",
-                "enom": "MMem_out",
-                "size": "32",
+                "comment": "Memoria de salida con los resultados",
+                "enom": "MMemOut",
+                "size": "64",
                 "val": "5'b00100"
             }
         ],
@@ -39,19 +39,19 @@
         }
     },
     "regs": {
-        "reg1": "Interrupt_A",
-        "reg10": "Test0",
+        "reg1": "",
+        "reg10": "",
         "reg11": "",
         "reg12": "",
         "reg13": "",
         "reg14": "",
         "reg15": "",
-        "reg2": "INT_Test",
+        "reg2": "",
         "reg3": "",
         "reg4": "",
         "reg5": "",
         "reg6": "",
         "reg7": "",
-        "reg9": "PackingData"
+        "reg9": ""
     }
 }
