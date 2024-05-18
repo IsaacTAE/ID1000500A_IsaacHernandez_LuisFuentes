@@ -1,8 +1,14 @@
 {
     "ipdata": {
+<<<<<<< HEAD:AIP_Generated/ID40048008_generator.json
         "comment": "Convolucionador con dos memorias externas y una de salida",
         "enom": "CONV",
         "ipid": "40048008"
+=======
+        "comment": "Modulos del proyecto de convolucionador.",
+        "enom": "PROYCONV01",
+        "ipid": "00000001"
+>>>>>>> dd04aaff133b79fac81bf4ec0d98302325666e58:AIP_Generated/ID00000001_generator.json
     },
     "memories": {
         "cfgReg": {
