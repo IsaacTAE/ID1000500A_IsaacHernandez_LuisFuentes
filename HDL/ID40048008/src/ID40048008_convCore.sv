@@ -27,8 +27,8 @@ module ID40048008_convCore
 	//sizeX and sizeY from configReg
 	logic [ADDR_WIDTH-1:0] sizeX;
 	logic [ADDR_WIDTH-1:0] sizeY;
-	assign sizeX = config_in[5:0];
-	assign sizeY = config_in[11:6];
+	assign sizeX = config_in[4:0];
+	assign sizeY = config_in[9:5];
 	
 	// Registers i, j, k 
 	logic [DATA_WIDTH-1:0] i_reg;
