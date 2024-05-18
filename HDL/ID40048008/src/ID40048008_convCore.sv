@@ -18,15 +18,17 @@ module ID40048008_convCore
 	output logic [ADDR_WIDTH:0]       memZ_addr,
 	output logic							 writeZ,
 		
-	input  logic [DATA_WIDTH-1:0]	config,
+	input  logic [DATA_WIDTH-1:0]	config_in,
 
 	output logic busy_out,
 	output logic done_out
 );
 
 	//sizeX and sizeY from configReg
-	logic [ADDR_WIDTH-1:0] sizeX = config[5:0];
-	logic [ADDR_WIDTH-1:0] sizeY = config[11:6];
+	logic [ADDR_WIDTH-1:0] sizeX;
+	logic [ADDR_WIDTH-1:0] sizeY;
+	assign sizeX = config_in[5:0];
+	assign sizeY = config_in[11:6];
 	
 	// Registers i, j, k 
 	logic [DATA_WIDTH-1:0] i_reg;

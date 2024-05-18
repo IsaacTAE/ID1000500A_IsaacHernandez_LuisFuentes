@@ -83,7 +83,7 @@ module ID40048008_conv
         .startIPcore (start_IPcore)
     );
 
-    ID40048008_convCore
+    ID40048008_dummyCore
     #(
         .DATA_WIDTH (DATA_WIDTH),
         .ADDR_WIDTH (ADDR_WIDTH_MEMI)
