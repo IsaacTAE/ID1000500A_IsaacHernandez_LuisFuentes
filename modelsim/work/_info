@@ -1,0 +1,743 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/ihc/Documents/TAE/Soc/convolucionador_sencillo/Convolucionador/modelsim
+vadder
+Z0 !s110 1716025220
+!i10b 1
+!s100 <M>m]c5fZGfZ;QBW:eQAn1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+InLNU2d_X5@K_WIQ2cG_?N0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/modelsim
+w1714601615
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder.v
+!i122 47
+L0 48 23
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1716025220.000000
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vadder_reg
+Z8 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R0
+!i10b 1
+!s100 Y^9MLAnRI0@nTjUAh0AG@2
+R1
+IE^<YV:n@]T[m6mWA2TjiE0
+R2
+S1
+R3
+w1714727113
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv
+!i122 48
+L0 1 41
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv|
+!i113 1
+Z9 o-work work -sv
+R7
+vaipConfigurationRegister
+Z10 !s110 1716025221
+!i10b 1
+!s100 Kc]=5cTQRjf6BBjP>`^hT0
+R1
+IJ7@?64YMG`8JDPXh>_Odm0
+R2
+R3
+Z11 w1715625705
+Z12 8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/aip/aipModules.v
+Z13 F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/aip/aipModules.v
+!i122 65
+L0 128 53
+R4
+r1
+!s85 0
+31
+Z14 !s108 1716025221.000000
+Z15 !s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/aip/aipModules.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/aip/aipModules.v|
+!i113 1
+R6
+R7
+naip@configuration@register
+vaipId
+R10
+!i10b 1
+!s100 6TL7;e;:Q^LKFcUWKcI;j3
+R1
+IBOFEHkCU`h[f;U><en0b83
+R2
+R3
+R11
+R12
+R13
+!i122 65
+L0 112 15
+R4
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R6
+R7
+naip@id
+vaipParametricMux
+R10
+!i10b 1
+!s100 Z[P6O[<Vf9[zLJAd6?Gi`0
+R1
+IbUmDFJZ25=6n1b?YVV9]f3
+R2
+R3
+R11
+R12
+R13
+!i122 65
+L0 86 25
+R4
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R6
+R7
+naip@parametric@mux
+vaipStatus
+R10
+!i10b 1
+!s100 f_=Tif40f9cFVO^ZLOXbB3
+R1
+IJB[HS_nlcWg]jI<VVQ>j]2
+R2
+R3
+R11
+R12
+R13
+!i122 65
+L0 17 68
+R4
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R6
+R7
+naip@status
+vcntrK
+R8
+R0
+!i10b 1
+!s100 ?e;=JWL;BS;03:@STK]4P2
+R1
+I6lXbi<NckMKhbP^Y^U19g3
+R2
+S1
+R3
+w1714774271
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv
+!i122 49
+L0 1 48
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv|
+!i113 1
+R9
+R7
+ncntr@k
+vcomparatorLessOrEqualThan
+R0
+!i10b 1
+!s100 =@2D9jMzR2hAL<]]8_jB;1
+R1
+IMHmC@@jnhIE_1M<:H<bh51
+R2
+R3
+w1714621633
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v
+!i122 50
+Z17 L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v|
+!i113 1
+R6
+R7
+ncomparator@less@or@equal@than
+vcomparatorLessThan
+R0
+!i10b 1
+!s100 JfWooAKYYX]4oNWKz9GMA0
+R1
+IIM5Oz]h6b0Be=g@TBd@PS2
+R2
+R3
+w1714620992
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v
+!i122 51
+L0 47 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v|
+!i113 1
+R6
+R7
+ncomparator@less@than
+vconv_TB
+R8
+!s110 1716025074
+!i10b 1
+!s100 SmR4P5OdQ1f3C?CCOcQYh1
+R1
+Io;f2C;h:YA`LPPn[3YY4G1
+R2
+S1
+R3
+w1715280932
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv
+!i122 0
+L0 1 137
+R4
+r1
+!s85 0
+31
+!s108 1716025074.000000
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/conv_TB.sv|
+!i113 1
+R9
+R7
+nconv_@t@b
+vconvTB
+Z18 !s110 1716025222
+!i10b 1
+!s100 EClY86JQ_=SKn]7PFJSW52
+R1
+I4zgQ`??^oTSER@AB;jTL;3
+R2
+R3
+w1716025210
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.v
+!i122 70
+L0 3 390
+R4
+r1
+!s85 0
+31
+Z19 !s108 1716025222.000000
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.v|
+!i113 1
+R6
+R7
+nconv@t@b
+vdataZ_block
+R8
+R0
+!i10b 1
+!s100 J1XGUkMEH[zO9NnfjZVjN3
+R1
+IoEHeI8Ge5h==`_O9DfQzP3
+R2
+S1
+R3
+w1714721896
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_dataZ_block.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_dataZ_block.sv
+!i122 52
+L0 1 59
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_dataZ_block.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_dataZ_block.sv|
+!i113 1
+R9
+R7
+ndata@z_block
+vfsm_reg
+R8
+R0
+!i10b 1
+!s100 :kn9Q^n_:F0<Tj1NJ3@`B3
+R1
+IBa3]oh<mBLooQ=MTiX<Ja2
+R2
+S1
+R3
+w1714765997
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_fsm_reg.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_fsm_reg.sv
+!i122 53
+L0 13 189
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_fsm_reg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_fsm_reg.sv|
+!i113 1
+R9
+R7
+vID40048008_aip
+R18
+!i10b 1
+!s100 JJbZS4`l2XWQ0<i]A5Fl^0
+R1
+IiSl:H;6`]P5<zd^QQQBeI1
+R2
+R3
+Z20 w1716008688
+Z21 8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_aip.v
+Z22 F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_aip.v
+!i122 67
+L0 11 123
+R4
+r1
+!s85 0
+31
+R14
+Z23 !s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_aip.v|
+Z24 !s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_aip.v|
+!i113 1
+R6
+R7
+n@i@d40048008_aip
+vID40048008_aipCtrl
+R18
+!i10b 1
+!s100 cERS4iV?:oNEmHei^z44<1
+R1
+I`3=Gz]T<M_BXCXkEWTLoT0
+R2
+R3
+R20
+R21
+R22
+!i122 67
+L0 536 252
+R4
+r1
+!s85 0
+31
+R14
+R23
+R24
+!i113 1
+R6
+R7
+n@i@d40048008_aip@ctrl
+vID40048008_aipModules
+R18
+!i10b 1
+!s100 b]`O_@AfQONSP[KTM8Ul]2
+R1
+IO304M`<5VLG4c7MMOJQhF2
+R2
+R3
+R20
+R21
+R22
+!i122 67
+L0 135 400
+R4
+r1
+!s85 0
+31
+R14
+R23
+R24
+!i113 1
+R6
+R7
+n@i@d40048008_aip@modules
+vID40048008_conv
+R18
+!i10b 1
+!s100 z5fJ>OXb8_f@3G25kbSee2
+R1
+IBGhDYRobbiF84ef@4W6721
+R2
+R3
+w1716016314
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_conv.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_conv.v
+!i122 68
+L0 5 112
+R4
+r1
+!s85 0
+31
+R19
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_conv.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_conv.v|
+!i113 1
+R6
+R7
+n@i@d40048008_conv
+vID40048008_convCore
+R8
+R18
+!i10b 1
+!s100 =`LZ=?0T=^Vac?Ci@C5Ak2
+R1
+I]1;U3UbSVk;Dm5YhL8Pz63
+R2
+S1
+R3
+w1716019490
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_convCore.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_convCore.sv
+!i122 69
+L0 1 273
+R4
+r1
+!s85 0
+31
+R19
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_convCore.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/src/ID40048008_convCore.sv|
+!i113 1
+R9
+R7
+n@i@d40048008_conv@core
+vinitializable_cntr
+R8
+R0
+!i10b 1
+!s100 zOhGCaSO9eCWn?[U3g9301
+R1
+I8H^Q3BmYm`91UJ:g>5P[e3
+R2
+S1
+R3
+w1714722662
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_initalizable_cntr.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_initalizable_cntr.sv
+!i122 54
+L0 1 66
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_initalizable_cntr.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_initalizable_cntr.sv|
+!i113 1
+R9
+R7
+vipm
+R10
+!i10b 1
+!s100 k6d>VS0MY251Q:zC2_beZ0
+R1
+IbML::RSaJPLG4b05:OFc10
+R2
+R3
+Z25 w1715816820
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/ipm/ipm.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/ipm/ipm.v
+!i122 63
+L0 1 68
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/ipm/ipm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/ipm/ipm.v|
+!i113 1
+R6
+R7
+vipm_ID40048008_conv
+R10
+!i10b 1
+!s100 IMe>SC_jm[R3NLX0467U82
+R1
+I:`3e;3hDcV>kC^SUM4ABV1
+R2
+R3
+w1716013458
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/ipm_ID40048008_conv.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/ipm_ID40048008_conv.v
+!i122 66
+L0 4 68
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/ipm_ID40048008_conv.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/ipm_ID40048008_conv.v|
+!i113 1
+R6
+R7
+nipm_@i@d40048008_conv
+vipm_register
+R10
+!i10b 1
+!s100 h:l8GQ2PzROkb_;>1?;3J2
+R1
+I9fa;GB?PR;Ij0@M>Ai<dd3
+R2
+R3
+R25
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/ipm/ipm_register.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/ipm/ipm_register.v
+!i122 64
+L0 13 134
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/ipm/ipm_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/ipm/ipm_register.v|
+!i113 1
+R6
+R7
+vmemY_addr_block
+R8
+R10
+!i10b 1
+!s100 Qk7O`U;0:=hM53CHNP[Q31
+R1
+I<l1KODh8K@021kJeUe>EC0
+R2
+S1
+R3
+w1714631593
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv
+!i122 55
+L0 1 65
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv|
+!i113 1
+R9
+R7
+nmem@y_addr_block
+vmultiplier
+R8
+R10
+!i10b 1
+!s100 `@Jj9WbIVQ]LIZCPgOU953
+R1
+IGJ;_oemIO?eJckk9<9^V]3
+R2
+S1
+R3
+w1714721833
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_multiplier.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_multiplier.sv
+!i122 56
+R17
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_multiplier.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_multiplier.sv|
+!i113 1
+R9
+R7
+vmuxNto1
+R10
+!i10b 1
+!s100 oKR>IZoFSn1nfTK9@`4[H0
+R1
+I<9Q[QG0IB:KC2k31D9P043
+R2
+R3
+w1714604283
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_muxNto1.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_muxNto1.v
+!i122 57
+L0 58 32
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_muxNto1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_muxNto1.v|
+!i113 1
+R6
+R7
+nmux@nto1
+vregister
+R10
+!i10b 1
+!s100 ZEMg@A2zRE9;m1WlEDB9C2
+R1
+IjmCj[oPl6k`m=QjN;zf>03
+R2
+R3
+w1714602154
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v
+!i122 58
+L0 47 26
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v|
+!i113 1
+R6
+R7
+vsimple_dual_port_ram_single_clk
+R10
+!i10b 1
+!s100 dX1FdkFVK]6RGYBM6mDeC2
+R1
+I^MCOESb?`CSEJ2MPGcj=63
+R2
+R3
+w1715795033
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/simple_dual_port_ram_single_clk.v
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/simple_dual_port_ram_single_clk.v
+!i122 62
+L0 16 25
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/simple_dual_port_ram_single_clk.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/simple_dual_port_ram_single_clk.v|
+!i113 1
+R6
+R7
+vsimple_dual_port_ram_single_clk_sv
+R8
+R10
+!i10b 1
+!s100 [<<4TWVh;d467fnCk?]3X1
+R1
+I9;E1IdcaLiONj`1^bgd;f1
+R2
+S1
+R3
+w1714717278
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv
+!i122 59
+L0 14 29
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv|
+!i113 1
+R9
+R7
+vsubtractor
+R8
+R10
+!i10b 1
+!s100 XH6Nfg7C7H8RCmh<I34Om3
+R1
+I6eknZFH<5TgAID]`6Ed0`3
+R2
+S1
+R3
+w1714627587
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv
+!i122 60
+R17
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv|
+!i113 1
+R9
+R7
+vsubtractor_reg
+R8
+R10
+!i10b 1
+!s100 jE61IdR`kkDO2A`WV2j^a3
+R1
+I4560PSfkQfF1n6IHGQD@i1
+R2
+S1
+R3
+w1714623250
+8/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv
+F/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv
+!i122 61
+L0 1 25
+R4
+r1
+!s85 0
+31
+R14
+!s107 /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv|
+!i113 1
+R9
+R7
