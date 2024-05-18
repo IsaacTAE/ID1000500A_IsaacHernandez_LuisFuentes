@@ -80,7 +80,6 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 
 set_location_assignment PIN_AH18 -to addressMCU[0]
 set_location_assignment PIN_AG16 -to addressMCU[1]
@@ -98,3 +97,25 @@ set_location_assignment PIN_AD19 -to intMCU
 set_location_assignment PIN_AE17 -to rdMCU
 set_location_assignment PIN_AH19 -to wrMCU
 set_location_assignment PIN_AH20 -to rstMCU
+
+set_location_assignment PIN_AF14 -to clk
+set_location_assignment PIN_AA14 -to rst
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to addressMCU[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to addressMCU[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to addressMCU[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to addressMCU[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to intMCU
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to rdMCU
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to rst
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to rstMCU
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to wrMCU
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
