@@ -1,4 +1,4 @@
-module conv
+module ID40048008_convCore
 #(
 	parameter DATA_WIDTH = 8,
 	parameter ADDR_WIDTH  = 5
@@ -9,20 +9,24 @@ module conv
 	input start,
 	// MEMX 
 	input  logic [DATA_WIDTH-1:0]	dataX,
-	input  logic [ADDR_WIDTH-1:0] sizeX,
 	output logic [ADDR_WIDTH-1:0] memX_addr,
 	// MEMY
 	input  logic [DATA_WIDTH-1:0] dataY,
-	input  logic [ADDR_WIDTH-1:0]	sizeY,
-	output logic [ADDR_WIDTH-1:0] memY_addr,
+	output logic [ADDR_WIDTH-1:0]	memY_addr,
 	// MEMZ
 	output logic [(DATA_WIDTH*2)-1:0] dataZ,
 	output logic [ADDR_WIDTH:0]       memZ_addr,
 	output logic							 writeZ,
 		
+	input  logic [DATA_WIDTH-1:0]	config,
+
 	output logic busy_out,
 	output logic done_out
 );
+
+	//sizeX and sizeY from configReg
+	logic [ADDR_WIDTH-1:0] sizeX = config[5:0];
+	logic [ADDR_WIDTH-1:0] sizeY = config[11:6];
 	
 	// Registers i, j, k 
 	logic [DATA_WIDTH-1:0] i_reg;
