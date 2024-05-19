@@ -1,0 +1,47 @@
+18.05.2024 23:48:36   Configs Loaded: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID40048008/config/ID40048008_config.csv
+
+MMemX
+MMemY
+MMemOut
+CConfReg
+
+18.05.2024 23:48:36   Connected to /dev/ttyACM0: CONV, Convolucionador con dos memorias externas y una de salida
+18.05.2024 23:48:40   Get ID
+18.05.2024 23:48:40   ID: 40048008
+18.05.2024 23:48:40   Empty variable ID created
+
+
+18.05.2024 23:48:48   Get Status
+18.05.2024 23:48:48   STATUS: 00000000
+18.05.2024 23:48:48   Empty variable STATUS created
+
+
+18.05.2024 23:50:25   Variable memX_fromFile created
+
+
+18.05.2024 23:50:37   Write Memory MMemX with 32 flits from variable memX_fromFile
+
+
+18.05.2024 23:51:02   Variable memY_fromFile created
+
+
+18.05.2024 23:51:03   Write Memory MMemY with 32 flits from variable memY_fromFile
+
+
+18.05.2024 23:52:25   Variable configReg_sizeX5_sizeY10 created
+
+
+18.05.2024 23:52:28   Write ConfReg CConfReg with 1 flits from variable configReg_sizeX5_sizeY10
+
+
+18.05.2024 23:52:36   Starting IP: CONV
+18.05.2024 23:52:42   Get Status
+18.05.2024 23:52:42   STATUS: 00000001
+18.05.2024 23:53:05   Empty variable processed_Data created
+
+
+18.05.2024 23:53:13   Read Memory 16 flits from MMemOut to varible processed_Data
+18.05.2024 23:53:14   Response: 16 flits
+
+
+18.05.2024 23:55:44   Script CONV_20240518-235524.ips saved

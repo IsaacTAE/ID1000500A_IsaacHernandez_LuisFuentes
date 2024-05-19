@@ -17,7 +17,7 @@ module ID40048008_conv
 );
 
     localparam DATA_WIDTH = 'd32; //define data length
-    localparam MEM_ADDR_MAX_WIDTH = 'd64;
+    localparam MEM_ADDR_MAX_WIDTH = 'd16;
     localparam ADDR_WIDTH_MEMI = 'd5; //define Memory In depth
     localparam ADDR_WIDTH_MEMO = 'd6; //define Memory Out depth
     localparam SIZE_CR = 'd1; //define Configuration Register depth
@@ -41,12 +41,11 @@ module ID40048008_conv
     wire [DATA_WIDTH-1:0] data_MemIn1; //data readed for memory in 1
     wire [MEM_ADDR_MAX_WIDTH-1:0] rd_addr_MemIn1; //address read for memory in 1
 
+    wire [DATA_WIDTH-1:0] data_ConfigReg; //data readed for configuration register
 
     wire [DATA_WIDTH-1:0] data_MemOut0; //data to write for memory out 0
     wire [MEM_ADDR_MAX_WIDTH-1:0] wr_addr_MemOut0; //address write for memory out 0
     wire wr_en_MemOut0; //enable write for memory out 0
-
-    wire [DATA_WIDTH-1:0] data_ConfigReg; //data readed for configuration register
 
     wire start_IPcore; //Used to start the IP-core
 
@@ -71,6 +70,9 @@ module ID40048008_conv
         .rdDataMemIn_0 (data_MemIn0),
         .rdAddrMemIn_0 (rd_addr_MemIn0),
 
+        .rdDataMemIn_1 (data_MemIn1),
+        .rdAddrMemIn_1 (rd_addr_MemIn1),
+
         .wrDataMemOut_0 (data_MemOut0),
         .wrAddrMemOut_0 (wr_addr_MemOut0),
         .wrEnMemOut_0 (wr_en_MemOut0),
@@ -85,26 +87,26 @@ module ID40048008_conv
 
     ID40048008_convCore
     #(
-        .DATA_WIDTH (DATA_WIDTH),
-        .ADDR_WIDTH (ADDR_WIDTH_MEMI)
+        .ADDR_WIDTH (ADDR_WIDTH_MEMI),
+        .DATA_WIDTH (DATA_WIDTH)
     )
     CORE
     (
         .clk (clk),
         .rstn (rst_a),
         .start (start_IPcore),
-		  
-		  // MEMX
-		  .dataX (data_MemIn0),
-		  .memX_addr (rd_addr_MemIn0[ADDR_WIDTH_MEMI-1:0]),
 
-		  // MEMY
-		  .dataY (data_MemIn1),
-		  .memY_addr (rd_addr_MemIn1[ADDR_WIDTH_MEMI-1:0]),
+		  // MEM X 
+        .dataX (data_MemIn0),
+        .memX_addr (rd_addr_MemIn0[ADDR_WIDTH_MEMI-1:0]),
 
-		  // MEMOUT_Z
-		  .dataZ (data_MemOut0),
-		  .memZ_addr (wr_addr_MemOut0[ADDR_WIDTH_MEMO-1:0]),
+		  // MEM Y
+        .dataY (data_MemIn1),
+        .memY_addr (rd_addr_MemIn1[ADDR_WIDTH_MEMI-1:0]),
+
+		  // MEM Z
+        .dataZ (data_MemOut0),
+        .memZ_addr (wr_addr_MemOut0[ADDR_WIDTH_MEMO-1:0]),
         .writeZ (wr_en_MemOut0),
 
         .config_in (data_ConfigReg),
