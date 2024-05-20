@@ -24,10 +24,10 @@ localparam	CYCLE		    = 'd20, // Define the clock work cycle in ns (user)
             //------------------------------------------------------------
             //..................PARAMETERS DEFINED BY THE USER............
             //------------------------------------------------------------
-            SIZE_MEM     = 'd64,  //Size of the memories of the IP dummy
 				SIZEX			 = 'd5,
 				SIZEY			 = 'd10,
-            INT_BIT_DONE = 'd0; //Bit corresponding to the Int Done flag.
+				SIZEOUT		 = SIZEX + SIZEY - 1, 
+				INT_BIT_DONE = 1'b0;
             
 
 
@@ -80,11 +80,14 @@ task conv_task;
    //Auxiliar variables
    reg [DATAWIDTH-1:0] tb_data;
 
-   reg [DATAWIDTH-1:0] dataSet [SIZE_MEM-1:0];
-   reg [(DATAWIDTH*SIZE_MEM)-1:0] dataSet_packed;
+   reg [DATAWIDTH-1:0] dataSetx [SIZEX-1:0];
+   reg [(DATAWIDTH*SIZEX)-1:0] dataSet_packedx;
 
-   reg [DATAWIDTH-1:0] result [SIZE_MEM-1:0];
-   reg [(DATAWIDTH*SIZE_MEM)-1:0] result_packed;
+   reg [DATAWIDTH-1:0] dataSety [SIZEY-1:0];
+   reg [(DATAWIDTH*SIZEY)-1:0] dataSet_packedy;
+
+   reg [DATAWIDTH-1:0] result [SIZEOUT-1:0];
+   reg [(DATAWIDTH*SIZEOUT)-1:0] result_packed;
    
    integer i;
    begin
@@ -102,29 +105,29 @@ task conv_task;
         
 		// -------------------- MEM X -------------------//
         // RANDOM DATA GENERATION
-        for (i = 0; i < SIZE_MEM; i=i+1) begin //generating random data
-            dataSet[i] = $urandom%100;          
+        for (i = 0; i < SIZEX; i=i+1) begin //generating random data
+            dataSetx[i] = $urandom%100;          
         end     
         
         //****CONVERTION TO A SINGLE ARRAY
-        for (i = 0; i < (SIZE_MEM) ; i=i+1) begin 
-            dataSet_packed[DATAWIDTH*i+:DATAWIDTH] = dataSet[i]; 
+        for (i = 0; i < (SIZEX) ; i=i+1) begin 
+            dataSet_packedx[DATAWIDTH*i+:DATAWIDTH] = dataSetx[i]; 
         end        
         
-        writeMem(MDATAINX, dataSet_packed, SIZE_MEM,0);
+        writeMem(MDATAINX, dataSet_packedx, SIZEX, 0);
         
 		// -------------------- MEM Y -------------------//
         // RANDOM DATA GENERATION
-        for (i = 0; i < SIZE_MEM; i=i+1) begin //generating random data
-            dataSet[i] = $urandom%100;          
+        for (i = 0; i < SIZEY; i=i+1) begin //generating random data
+            dataSety[i] = $urandom%100;          
         end     
         
         //****CONVERTION TO A SINGLE ARRAY
-        for (i = 0; i < (SIZE_MEM) ; i=i+1) begin 
-            dataSet_packed[DATAWIDTH*i+:DATAWIDTH] = dataSet[i]; 
+        for (i = 0; i < (SIZEY) ; i=i+1) begin 
+            dataSet_packedy[DATAWIDTH*i+:DATAWIDTH] = dataSety[i]; 
         end        
         
-        writeMem(MDATAINY, dataSet_packed, SIZE_MEM,0);
+        writeMem(MDATAINY, dataSet_packedy, SIZEY, 0);
 
 
 		// -------------- CONFIG REG -----------------//
@@ -163,6 +166,8 @@ task conv_task;
         
         //CLEAR INT DONE FLAG
         clearINT(INT_BIT_DONE);
+
+		  #(CYCLE*5);
         
         // READ STATUS
         getStatus(tb_data);
@@ -170,16 +175,16 @@ task conv_task;
 
 
         // READ MEM OUT
-        readMem(MDATAOUT, result_packed, SIZE_MEM, 0);
+        readMem(MDATAOUT, result_packed, SIZEOUT, 0);
         //*****CONVERTION TO A 2D ARRAY
-        for (i = 0; i < (SIZE_MEM) ; i=i+1) begin 
+        for (i = 0; i < (SIZEOUT) ; i=i+1) begin 
             result[i]= result_packed[DATAWIDTH*i+:DATAWIDTH]; 
         end
         
         $display ("\t\tI \t\tO \t\tResult");
-        for (i = 0; i < SIZE_MEM; i=i+1) begin
+        for (i = 0; i < SIZEOUT; i=i+1) begin
             //read_interface(MDATAOUT, tb_data);
-            $display ("Read data %2d \t%8h \t%8h \t%s", i, dataSet[i], result[i], (dataSet[i] === result[i] ? "OK": "ERROR"));
+            $display ("Read data %2d \t%8h", i, result[i]);
         end
         
         // DISABLE INTERRUPTIONS
