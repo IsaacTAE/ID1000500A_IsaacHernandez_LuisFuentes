@@ -1,45 +1,39 @@
 {
     "ipdata": {
-<<<<<<< HEAD:AIP_Generated/ID40048008_generator.json
-        "comment": "Convolucionador con dos memorias externas y una de salida",
+        "comment": "2 extern input memories 1 extern output memory convolutioner",
         "enom": "CONV",
-        "ipid": "40048008"
-=======
-        "comment": "Modulos del proyecto de convolucionador.",
-        "enom": "PROYCONV01",
-        "ipid": "00000001"
->>>>>>> dd04aaff133b79fac81bf4ec0d98302325666e58:AIP_Generated/ID00000001_generator.json
+        "ipid": "1000500A"
     },
     "memories": {
         "cfgReg": {
-            "comment": "Registro de configuracion",
+            "comment": "Cofiguration Register",
             "enom": "CConfReg",
             "size": "1",
             "val": "5'b00110"
         },
         "memIn": [
             {
-                "comment": "Memoria de entrada X",
+                "comment": "Input Memory X",
                 "enom": "MMemX",
                 "size": "32",
                 "val": "5'b00000"
             },
             {
-                "comment": "Memoria de entrada Y",
+                "comment": "Input Memory Y",
                 "enom": "MMemY",
                 "size": "32",
                 "val": "5'b00010"
+            },
+            {
+                "comment": "Output Memory",
+                "enom": "MMemOut",
+                "size": "64",
+                "val": "5'b00100"
             }
         ],
         "memInStream": {
         },
         "memOut": [
-            {
-                "comment": "Memoria de salida con los resultados",
-                "enom": "MMemOut",
-                "size": "64",
-                "val": "5'b00100"
-            }
         ],
         "memOutStream": {
         }
