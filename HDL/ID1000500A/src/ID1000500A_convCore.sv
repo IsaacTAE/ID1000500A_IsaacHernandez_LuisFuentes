@@ -36,15 +36,18 @@ module ID1000500A_convCore
 	logic [DATA_WIDTH-1:0] j_reg;
 	logic [DATA_WIDTH-1:0] j_nxt;
 	logic [DATA_WIDTH-1:0] k_reg;
+	logic [DATA_WIDTH-1:0] k_nxt;
 
-	// Wire for comp_j_valid block
+	// Wire for comp_j_valid blocks
 	logic comp_j_i;
+	logic comp_k_0;
 
 	// FSM DATA
 	logic comp_i_sizeY;
 	logic comp_i_sizeX;
 	logic comp_j_sizeX;
-	logic comp_j_valid;
+	logic comp_j_valid1;
+	logic comp_j_valid2;
 	logic selI_ff;
 	logic selJ_ff;
 	logic selK_ff;
@@ -71,8 +74,8 @@ module ID1000500A_convCore
 		.start_in			(start),
 		.comp_i_sizeY_in	(comp_i_sizeY),
 		.comp_i_sizeX_in	(comp_i_sizeX),
-		.comp_j_sizeX_in	(comp_j_sizeX),
-		.comp_j_valid_in  (comp_j_valid),
+		.comp_j_valid1_in	(comp_j_valid1),
+		.comp_j_valid2_in (comp_j_valid2),
 		.selI_o				(selI_ff),
 		.selJ_o				(selJ_ff),
 		.selK_o				(selK_ff),
@@ -144,6 +147,7 @@ module ID1000500A_convCore
 		.sel_in			(selK_ff),
 		.en_in			(k_en_ff),
 		.sizeY_in		(sizeY),
+		.k_nxt_out		(k_nxt),
 		.k_out			(k_reg)
 	);
 
@@ -243,7 +247,7 @@ module ID1000500A_convCore
 	);
 
 	
-	// ---------- COMPARATOR J_SIZEX ----------- //
+	// ---------- COMPARATOR J_VALID_1 ----------- //
 	comparatorLessThan
 	#(
 		.DATA_WIDTH		(ADDR_WIDTH)
@@ -255,19 +259,31 @@ module ID1000500A_convCore
 		.A_less_than_B_o	(comp_j_sizeX)
 	);
 
-
-	// ---------- COMPARATOR J_VALID ----------- //
 	comparatorLessOrEqualThan
 	#(
 		.DATA_WIDTH		(ADDR_WIDTH)
 	)
-	comparator_J_valid
+	comparator_J_I
 	(
 		.A_i					(j_nxt),
 		.B_i					(i_reg),
 		.A_less_than_B_o	(comp_j_i)
 	);
-	assign comp_j_valid = comp_j_sizeX & comp_j_i;
+	assign comp_j_valid1 = comp_j_sizeX & comp_j_i;
+	
+	
+	// ---------- COMPARATOR J_VALID_2 ----------- //
+	comparatorGreatOrEqualThan
+	#(
+		.DATA_WIDTH(ADDR_WIDTH)
+	)
+	comparator_K_0
+	(
+		.A_i			(k_nxt),
+		.B_i			(0),
+		.A_great_or_equal_than_B_o	(comp_k_0)
+	);
+	assign comp_j_valid2 = comp_j_sizeX & comp_k_0;
 
 
 endmodule

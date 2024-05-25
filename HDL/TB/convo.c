@@ -20,8 +20,8 @@ int main(void)
 	uint32_t memY [32] = {}; 
 	uint64_t memZ [63] = {};
 
-	sizeX = 5;
-	sizeY = 10;
+	sizeX = 10;
+	sizeY = 5;
 	memX_addr = 0;
 	memY_addr = 0;
 	memZ_addr = 0;
@@ -42,7 +42,7 @@ int main(void)
 
 	for (int i = 1; i < sizeX; i++){
 		dataZ = 0;
-		for (int j = i, k = sizeY-1; j < sizeX; j++, k--){
+		for (int j = i, k = sizeY-1; (j<sizeX) && (k>=0) ; j++, k--){
 			dataX = memX[j];
 			dataY = memY[k];
 			dataZ += dataX * dataY;

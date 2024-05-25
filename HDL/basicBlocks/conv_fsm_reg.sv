@@ -16,8 +16,8 @@ module fsm_reg (
    input  logic        start_in,
 	input  logic        comp_i_sizeY_in, 
 	input  logic        comp_i_sizeX_in, 
-	input  logic        comp_j_sizeX_in, 
-	input  logic        comp_j_valid_in, 
+	input  logic        comp_j_valid1_in, 
+	input  logic        comp_j_valid2_in, 
 	output logic		  selI_o,
 	output logic		  selJ_o,
 	output logic		  selK_o,
@@ -59,22 +59,22 @@ typedef enum logic [4:0] {S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11, S12, S13
               else						next = S1;                        
          S2:  if (comp_i_sizeY_in)	next = S3;
 				  else						next = S9;
-			S3:  if (comp_j_valid_in)	next = S4;
+			S3:  if (comp_j_valid1_in)	next = S4;
 				  else						next = S7;
 			S4:								next = S5;
 			S5:								next = S6;
-			S6:  if (comp_j_valid_in)	next = S4;
+			S6:  if (comp_j_valid1_in)	next = S4;
 				  else						next = S7;
 			S7:								next = S8;
 			S8:  if (comp_i_sizeY_in)	next = S3;
 				  else						next = S9;
 			S9:  if (comp_i_sizeX_in)	next = S10;
 				  else						next = S16;
-			S10: if (comp_j_sizeX_in)	next = S11;
+			S10: if (comp_j_valid2_in)	next = S11;
 				  else						next = S14;
 			S11:								next = S12;
 			S12:								next = S13;
-			S13: if (comp_j_sizeX_in)	next = S11;
+			S13: if (comp_j_valid2_in)	next = S11;
 				  else						next = S14;
 			S14:								next = S15;
 			S15: if (comp_i_sizeX_in)	next = S10;

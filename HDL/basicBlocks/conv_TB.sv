@@ -1,6 +1,6 @@
 module conv_TB;
 
-	localparam DATA_WIDTH = 8;
+	localparam DATA_WIDTH = 32;
 	localparam ADDR_WIDTH = 5;
 
 	logic clk;
@@ -22,10 +22,12 @@ module conv_TB;
 	logic busy;
 	logic done;
 
+	logic [DATA_WIDTH-1:0] configReg;
+
 	logic [ADDR_WIDTH-1:0]		memZ_ram_o;
 	
 	// ----------- CONVOLUTION_COPROCESSOR ------------ //
-	conv 
+	ID1000500A_convCore 
 	#(
 		.DATA_WIDTH		(DATA_WIDTH),
 		.ADDR_WIDTH		(ADDR_WIDTH)
@@ -37,16 +39,16 @@ module conv_TB;
 		.start		(start),
 
 		.dataX		(dataX),
-		.sizeX		(sizeX),
 		.memX_addr	(memX_addr),
 
 		.dataY		(dataY),
-		.sizeY		(sizeY),
 		.memY_addr	(memY_addr),
 
 		.dataZ		(dataZ),
 		.writeZ		(writeZ),
 		.memZ_addr	(memZ_addr),
+
+		.config_in	(configReg),
 
 		.busy_out	(busy),
 		.done_out	(done)
@@ -58,7 +60,7 @@ module conv_TB;
 	#(
 		.DATA_WIDTH		(DATA_WIDTH),
 		.ADDR_WIDTH		(ADDR_WIDTH),
-		.TXT_FILE		("/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/memX_values.txt")
+		.TXT_FILE		("/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/memX_values.ipd")
 	) 
 	memX_ram
 	(
@@ -76,7 +78,7 @@ module conv_TB;
 	#(
 		.DATA_WIDTH		(DATA_WIDTH),
 		.ADDR_WIDTH		(ADDR_WIDTH),
-		.TXT_FILE		("/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/memY_values.txt")
+		.TXT_FILE		("/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/memY_values.ipd")
 	) 
 	memY_ram
 	(
@@ -113,8 +115,11 @@ module conv_TB;
 		clk = 0;
 		rstn = 0;
 		start = 0;
-		sizeX = 5;
-		sizeY = 10;
+		sizeX = 5'd10;
+		sizeY = 5'd5;
+		configReg = 'd0;
+		configReg [9:5] = sizeY;
+		configReg [4:0] = sizeX;
 	
 		@(negedge clk);
 
@@ -129,7 +134,7 @@ module conv_TB;
 
 		start = 0;
 
-		#2000;
+		#20000;
 		$stop;
 
 	end

@@ -24,7 +24,7 @@ localparam	CYCLE		    = 'd20, // Define the clock work cycle in ns (user)
             //------------------------------------------------------------
             //..................PARAMETERS DEFINED BY THE USER............
             //------------------------------------------------------------
-				SIZEX			 = 'd5,
+				SIZEX			 = 'd10,
 				SIZEY			 = 'd10,
 				SIZEZ		 = SIZEX + SIZEY - 1, 
 				INT_BIT_DONE = 1'b0;
@@ -119,6 +119,7 @@ task conv_task;
 				$fwrite(filex, "%h\n", dataSetx[i]);
         end     
 
+		  // $readmemh({ruta, "memX_values.ipd"});
 		  $fclose(filex);
         
         //****CONVERTION TO A SINGLE ARRAY
@@ -199,13 +200,7 @@ task conv_task;
             result[i]= result_packed[DATAWIDTH*i+:DATAWIDTH]; 
         end
         
-			// Read result values from C program
-			filez = $fopen({ruta, "resultValues.txt"}, "r");	
-			for (i = 0; i < SIZEZ; i++) begin
-				$fscanf(filez, "%h\n", readMemValues[i]);
-			end
-			$fclose(filez);
-
+		  $readmemh({ruta, "resultValues.txt"}, readMemValues);
 
         $display ("\t\tHDL \t\tC \tResult");
         for (i = 0; i < SIZEZ; i=i+1) begin

@@ -1,292 +1,9 @@
 # Loading project ipm_conv
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of convTB.v failed with 1 errors.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# 24 compiles, 1 failed with 1 error.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of convTB.v failed with 3 errors.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# 24 compiles, 1 failed with 3 errors.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of convTB.v failed with 2 errors.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# 24 compiles, 1 failed with 2 errors.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of convTB.v failed with 3 errors.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# 24 compiles, 1 failed with 3 errors.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of convTB.v failed with 6 errors.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# 24 compiles, 1 failed with 6 errors.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# Compile of convTB.sv was successful.
-# 24 compiles, 0 failed with no errors.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# Compile of convTB.sv failed with 3 errors.
-# 24 compiles, 1 failed with 3 errors.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# Compile of convTB.sv failed with 3 errors.
-# 24 compiles, 1 failed with 3 errors.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# Compile of convTB.sv failed with 4 errors.
-# 24 compiles, 1 failed with 4 errors.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# Compile of convTB.sv failed with 1 errors.
-# 24 compiles, 1 failed with 1 error.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# Compile of convTB.sv was successful.
-# 24 compiles, 0 failed with no errors.
-vsim work.convTB
-# vsim work.convTB 
-# Start time: 19:37:03 on May 24,2024
+vsim work.conv_TB
+# vsim work.conv_TB 
+# Start time: 15:08:06 on May 25,2024
 # Loading sv_std.std
-# Loading work.convTB
-# Loading work.ID1000500A_conv
-# Loading work.ID1000500A_aip
-# Loading work.ID1000500A_aipModules
-# Loading work.aipConfigurationRegister
-# Loading work.ID1000500A_aipCtrl
-# Loading work.aipParametricMux
-# Loading work.aipId
-# Loading work.aipStatus
+# Loading work.conv_TB
 # Loading work.ID1000500A_convCore
 # Loading work.fsm_reg
 # Loading work.initializable_cntr
@@ -294,102 +11,55 @@ vsim work.convTB
 # Loading work.muxNto1
 # Loading work.register
 # Loading work.cntrK
-# Loading work.subtractor_reg
-# Loading work.memY_addr_block
 # Loading work.subtractor
+# Loading work.memY_addr_block
 # Loading work.adder_reg
 # Loading work.dataZ_block
 # Loading work.multiplier
 # Loading work.comparatorLessThan
 # Loading work.comparatorLessOrEqualThan
-# Loading work.simple_dual_port_ram_single_clk
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ns  Iteration: 0  Region: /convTB/conv_task File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (32) for port 'dataZ'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv(17).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_conv.v Line: 93
+# Loading work.comparatorGreatOrEqualThan
+# Loading work.simple_dual_port_ram_single_clk_sv
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_nxt_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 142
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 140
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 20
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 142
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_sub File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clrh'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(53).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 52
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 156
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 159
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 172
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 175
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 191
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 194
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 225
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 228
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 238
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 241
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 251
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 254
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 265
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-run -all
-#                    0 << Start Simulation >>
-#     100 Read ID 1000500a
-#     160 Read STATUS 00000000
-# (vsim-50) A call to system(./../../C_Programs/convo >'/tmp/questatmp.fMuuYe' 2>&1) returned error code '127'. [Probably a bad shell].
-# The logfile contains the following messages:
-# sh: 1: ./../../C_Programs/convo: not found
-# 
-# No such file or directory. (errno = ENOENT)
-#     900 Sending start
-#    4940 Done flag detected!
-#    5000 Read STATUS 00010001
-#    5280 Read STATUS 00010000
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "resultValues.txt" for reading.
-# No such file or directory. (errno = ENOENT)    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(200)
-#    Time: 5660 ns  Iteration: 0  Instance: /convTB
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#68 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 202
-# 		HDL 		C 		Result
-# [          0] 	00000201 		xxxxxxxx 		ERROR
-# [          1] 	000002b6 		xxxxxxxx 		ERROR
-# [          2] 	000008c4 		xxxxxxxx 		ERROR
-# [          3] 	00000bc8 		xxxxxxxx 		ERROR
-# [          4] 	00000ca7 		xxxxxxxx 		ERROR
-# [          5] 	00000f58 		xxxxxxxx 		ERROR
-# [          6] 	00001875 		xxxxxxxx 		ERROR
-# [          7] 	000016c7 		xxxxxxxx 		ERROR
-# [          8] 	00001946 		xxxxxxxx 		ERROR
-# [          9] 	00002304 		xxxxxxxx 		ERROR
-# [         10] 	00002380 		xxxxxxxx 		ERROR
-# [         11] 	000017b8 		xxxxxxxx 		ERROR
-# [         12] 	000011d0 		xxxxxxxx 		ERROR
-# [         13] 	00000aa0 		xxxxxxxx 		ERROR
-#                 6080 << End Simulation >>
-# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(76)
-#    Time: 6080 ns  Iteration: 0  Instance: /convTB
-# Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 76
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 265
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 279
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 279
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (5) for port 'read_data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
 # Compile of conv_adder.v was successful.
 # Compile of conv_adder_reg.sv was successful.
 # Compile of conv_cntrK.sv was successful.
@@ -404,57 +74,6 @@ run -all
 # Compile of conv_register.v was successful.
 # Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
 # Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# Compile of convTB.sv failed with 1 errors.
-# 24 compiles, 1 failed with 1 error.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# Compile of convTB.sv failed with 1 errors.
-# 24 compiles, 1 failed with 1 error.
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
 # Compile of simple_dual_port_ram_single_clk.v was successful.
 # Compile of ipm.v was successful.
 # Compile of ipm_register.v was successful.
@@ -464,18 +83,12 @@ run -all
 # Compile of ID1000500A_conv.v was successful.
 # Compile of ID1000500A_convCore.sv was successful.
 # Compile of convTB.sv was successful.
-# 24 compiles, 0 failed with no errors.
-restart -f
+# Compile of conv_TB.sv was successful.
+# Compile of conv_comparatorGreatOrEqualThan.v was successful.
+# 25 compiles, 0 failed with no errors.
+restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.convTB
-# Loading work.ID1000500A_conv
-# Loading work.ID1000500A_aip
-# Loading work.ID1000500A_aipModules
-# Loading work.aipConfigurationRegister
-# Loading work.ID1000500A_aipCtrl
-# Loading work.aipParametricMux
-# Loading work.aipId
-# Loading work.aipStatus
+# Loading work.conv_TB
 # Loading work.ID1000500A_convCore
 # Loading work.fsm_reg
 # Loading work.initializable_cntr
@@ -483,102 +96,63 @@ restart -f
 # Loading work.muxNto1
 # Loading work.register
 # Loading work.cntrK
-# Loading work.subtractor_reg
-# Loading work.memY_addr_block
 # Loading work.subtractor
+# Loading work.memY_addr_block
 # Loading work.adder_reg
 # Loading work.dataZ_block
 # Loading work.multiplier
 # Loading work.comparatorLessThan
 # Loading work.comparatorLessOrEqualThan
-# Loading work.simple_dual_port_ram_single_clk
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ns  Iteration: 0  Region: /convTB/conv_task File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (32) for port 'dataZ'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv(17).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_conv.v Line: 93
+# Loading work.comparatorGreatOrEqualThan
+# Loading work.simple_dual_port_ram_single_clk_sv
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_nxt_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 142
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 140
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 20
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 142
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_sub File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clrh'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(53).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 52
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 156
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 159
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 172
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 175
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 191
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 194
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 225
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 228
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 238
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 241
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 251
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 254
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 265
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 265
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 279
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 279
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (5) for port 'read_data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
+do wave.do
 run -all
-#                    0 << Start Simulation >>
-#     100 Read ID 1000500a
-#     160 Read STATUS 00000000
-# (vsim-50) A call to system(./home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convo >'/tmp/questatmp.f26awd' 2>&1) returned error code '127'. [Probably a bad shell].
-# The logfile contains the following messages:
-# sh: 1: ./home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convo: not found
-# 
-# No such file or directory. (errno = ENOENT)
-#     900 Sending start
-#    4940 Done flag detected!
-#    5000 Read STATUS 00010001
-#    5280 Read STATUS 00010000
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/resultValues.txt" for reading.
-# No such file or directory. (errno = ENOENT)    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(203)
-#    Time: 5660 ns  Iteration: 0  Instance: /convTB
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# 		HDL 		C 		Result
-# [          0] 	00000201 		xxxxxxxx 		ERROR
-# [          1] 	000002b6 		xxxxxxxx 		ERROR
-# [          2] 	000008c4 		xxxxxxxx 		ERROR
-# [          3] 	00000bc8 		xxxxxxxx 		ERROR
-# [          4] 	00000ca7 		xxxxxxxx 		ERROR
-# [          5] 	00000f58 		xxxxxxxx 		ERROR
-# [          6] 	00001875 		xxxxxxxx 		ERROR
-# [          7] 	000016c7 		xxxxxxxx 		ERROR
-# [          8] 	00001946 		xxxxxxxx 		ERROR
-# [          9] 	00002304 		xxxxxxxx 		ERROR
-# [         10] 	00002380 		xxxxxxxx 		ERROR
-# [         11] 	000017b8 		xxxxxxxx 		ERROR
-# [         12] 	000011d0 		xxxxxxxx 		ERROR
-# [         13] 	00000aa0 		xxxxxxxx 		ERROR
-#                 6080 << End Simulation >>
-# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(75)
-#    Time: 6080 ns  Iteration: 0  Instance: /convTB
-# Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 75
+# ** Warning: (vsim-7) Failed to open readmem file "" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(31)
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram
+# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv(138)
+#    Time: 20040 ps  Iteration: 0  Instance: /conv_TB
+# Break in Module conv_TB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv line 138
 # Compile of conv_adder.v was successful.
 # Compile of conv_adder_reg.sv was successful.
 # Compile of conv_cntrK.sv was successful.
@@ -593,7 +167,6 @@ run -all
 # Compile of conv_register.v was successful.
 # Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
 # Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
 # Compile of simple_dual_port_ram_single_clk.v was successful.
 # Compile of ipm.v was successful.
 # Compile of ipm_register.v was successful.
@@ -603,18 +176,12 @@ run -all
 # Compile of ID1000500A_conv.v was successful.
 # Compile of ID1000500A_convCore.sv was successful.
 # Compile of convTB.sv was successful.
-# 24 compiles, 0 failed with no errors.
+# Compile of conv_TB.sv was successful.
+# Compile of conv_comparatorGreatOrEqualThan.v was successful.
+# 25 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.convTB
-# Loading work.ID1000500A_conv
-# Loading work.ID1000500A_aip
-# Loading work.ID1000500A_aipModules
-# Loading work.aipConfigurationRegister
-# Loading work.ID1000500A_aipCtrl
-# Loading work.aipParametricMux
-# Loading work.aipId
-# Loading work.aipStatus
+# Loading work.conv_TB
 # Loading work.ID1000500A_convCore
 # Loading work.fsm_reg
 # Loading work.initializable_cntr
@@ -622,97 +189,167 @@ restart
 # Loading work.muxNto1
 # Loading work.register
 # Loading work.cntrK
-# Loading work.subtractor_reg
-# Loading work.memY_addr_block
 # Loading work.subtractor
+# Loading work.memY_addr_block
 # Loading work.adder_reg
 # Loading work.dataZ_block
 # Loading work.multiplier
 # Loading work.comparatorLessThan
 # Loading work.comparatorLessOrEqualThan
-# Loading work.simple_dual_port_ram_single_clk
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ns  Iteration: 0  Region: /convTB/conv_task File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (32) for port 'dataZ'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv(17).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_conv.v Line: 93
+# Loading work.comparatorGreatOrEqualThan
+# Loading work.simple_dual_port_ram_single_clk_sv
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_nxt_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 143
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 140
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 20
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 143
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_sub File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clrh'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(53).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 52
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 156
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 160
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 172
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 176
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 191
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 195
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 225
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 229
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 238
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 242
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 251
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 255
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 266
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 266
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 280
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 280
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (5) for port 'read_data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
 run -all
-#                    0 << Start Simulation >>
-#     100 Read ID 1000500a
-#     160 Read STATUS 00000000
-#     900 Sending start
-#    4940 Done flag detected!
-#    5000 Read STATUS 00010001
-#    5280 Read STATUS 00010000
-# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/resultValues.txt" for reading.
-# No such file or directory. (errno = ENOENT)    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(203)
-#    Time: 5660 ns  Iteration: 0  Instance: /convTB
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Error (suppressible): (vsim-PLI-3084) $fscanf : Argument 1 is not a valid file descriptor.
-#    Time: 5660 ns  Iteration: 0  Process: /convTB/#INITIAL#67 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# 		HDL 		C 		Result
-# [          0] 	00000201 		xxxxxxxx 		ERROR
-# [          1] 	000002b6 		xxxxxxxx 		ERROR
-# [          2] 	000008c4 		xxxxxxxx 		ERROR
-# [          3] 	00000bc8 		xxxxxxxx 		ERROR
-# [          4] 	00000ca7 		xxxxxxxx 		ERROR
-# [          5] 	00000f58 		xxxxxxxx 		ERROR
-# [          6] 	00001875 		xxxxxxxx 		ERROR
-# [          7] 	000016c7 		xxxxxxxx 		ERROR
-# [          8] 	00001946 		xxxxxxxx 		ERROR
-# [          9] 	00002304 		xxxxxxxx 		ERROR
-# [         10] 	00002380 		xxxxxxxx 		ERROR
-# [         11] 	000017b8 		xxxxxxxx 		ERROR
-# [         12] 	000011d0 		xxxxxxxx 		ERROR
-# [         13] 	00000aa0 		xxxxxxxx 		ERROR
-#                 6080 << End Simulation >>
-# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(75)
-#    Time: 6080 ns  Iteration: 0  Instance: /convTB
-# Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 75
+# ** Warning: (vsim-7) Failed to open readmem file "" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(31)
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram
+# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv(138)
+#    Time: 20040 ps  Iteration: 0  Instance: /conv_TB
+# Break in Module conv_TB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv line 138
+add wave -position insertpoint  \
+sim:/conv_TB/conv_DUT/comp_j_valid2 \
+sim:/conv_TB/conv_DUT/comp_j_valid1
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_nxt_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 143
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 143
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_sub File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clrh'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(53).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 160
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 229
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 242
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 255
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 266
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 266
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 280
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 280
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (5) for port 'read_data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(31)
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram
+# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv(138)
+#    Time: 20040 ps  Iteration: 0  Instance: /conv_TB
+# Break in Module conv_TB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv line 138
+add wave -position insertpoint  \
+sim:/conv_TB/conv_DUT/k_nxt
+add wave -position insertpoint  \
+sim:/conv_TB/conv_DUT/comp_k_0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_nxt_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 143
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 143
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_sub File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clrh'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(53).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 52
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 160
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 176
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 195
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 229
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 242
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 255
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 266
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 266
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 280
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 280
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (5) for port 'read_data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(31)
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram
+# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv(138)
+#    Time: 20040 ps  Iteration: 0  Instance: /conv_TB
+# Break in Module conv_TB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv line 138
 # Compile of conv_adder.v was successful.
 # Compile of conv_adder_reg.sv was successful.
 # Compile of conv_cntrK.sv was successful.
@@ -727,7 +364,6 @@ run -all
 # Compile of conv_register.v was successful.
 # Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
 # Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
 # Compile of simple_dual_port_ram_single_clk.v was successful.
 # Compile of ipm.v was successful.
 # Compile of ipm_register.v was successful.
@@ -737,18 +373,12 @@ run -all
 # Compile of ID1000500A_conv.v was successful.
 # Compile of ID1000500A_convCore.sv was successful.
 # Compile of convTB.sv was successful.
-# 24 compiles, 0 failed with no errors.
+# Compile of conv_TB.sv was successful.
+# Compile of conv_comparatorGreatOrEqualThan.v was successful.
+# 25 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.convTB
-# Loading work.ID1000500A_conv
-# Loading work.ID1000500A_aip
-# Loading work.ID1000500A_aipModules
-# Loading work.aipConfigurationRegister
-# Loading work.ID1000500A_aipCtrl
-# Loading work.aipParametricMux
-# Loading work.aipId
-# Loading work.aipStatus
+# Loading work.conv_TB
 # Loading work.ID1000500A_convCore
 # Loading work.fsm_reg
 # Loading work.initializable_cntr
@@ -756,172 +386,62 @@ restart
 # Loading work.muxNto1
 # Loading work.register
 # Loading work.cntrK
-# Loading work.subtractor_reg
-# Loading work.memY_addr_block
 # Loading work.subtractor
+# Loading work.memY_addr_block
 # Loading work.adder_reg
 # Loading work.dataZ_block
 # Loading work.multiplier
 # Loading work.comparatorLessThan
 # Loading work.comparatorLessOrEqualThan
-# Loading work.simple_dual_port_ram_single_clk
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ns  Iteration: 0  Region: /convTB/conv_task File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (32) for port 'dataZ'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv(17).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_conv.v Line: 93
+# Loading work.comparatorGreatOrEqualThan
+# Loading work.simple_dual_port_ram_single_clk_sv
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_nxt_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 143
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 140
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 20
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 143
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_sub File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 41
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clrh'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(53).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 54
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 156
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 160
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 172
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 176
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 191
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 195
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 225
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 229
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 238
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 242
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 251
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 255
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 266
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 266
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 280
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 280
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (5) for port 'read_data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
 run -all
-#                    0 << Start Simulation >>
-#     100 Read ID 1000500a
-#     160 Read STATUS 00000000
-#     900 Sending start
-#    4940 Done flag detected!
-#    5000 Read STATUS 00010001
-#    5280 Read STATUS 00010000
-# 		HDL 		C 		Result
-# [          0] 	00000201 		00000201 		   OK
-# [          1] 	000002b6 		000002b6 		   OK
-# [          2] 	000008c4 		000008c4 		   OK
-# [          3] 	00000bc8 		00000bc8 		   OK
-# [          4] 	00000ca7 		00000ca7 		   OK
-# [          5] 	00000f58 		00000f58 		   OK
-# [          6] 	00001875 		00001875 		   OK
-# [          7] 	000016c7 		000016c7 		   OK
-# [          8] 	00001946 		00001946 		   OK
-# [          9] 	00002304 		00002304 		   OK
-# [         10] 	00002380 		00002380 		   OK
-# [         11] 	000017b8 		000017b8 		   OK
-# [         12] 	000011d0 		000011d0 		   OK
-# [         13] 	00000aa0 		00000aa0 		   OK
-#                 6080 << End Simulation >>
-# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(75)
-#    Time: 6080 ns  Iteration: 0  Instance: /convTB
-# Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 75
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ns  Iteration: 0  Region: /convTB/conv_task File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (32) for port 'dataZ'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv(17).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_conv.v Line: 93
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 140
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 20
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 156
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 172
-# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 191
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 225
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 238
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 251
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-run -all
-#                    0 << Start Simulation >>
-#     100 Read ID 1000500a
-#     160 Read STATUS 00000000
-#     900 Sending start
-#    4940 Done flag detected!
-#    5000 Read STATUS 00010001
-#    5280 Read STATUS 00010000
-# 		HDL 		C 		Result
-# [          0] 	00000201 		00000201 		   OK
-# [          1] 	000002b6 		000002b6 		   OK
-# [          2] 	000008c4 		000008c4 		   OK
-# [          3] 	00000bc8 		00000bc8 		   OK
-# [          4] 	00000ca7 		00000ca7 		   OK
-# [          5] 	00000f58 		00000f58 		   OK
-# [          6] 	00001875 		00001875 		   OK
-# [          7] 	000016c7 		000016c7 		   OK
-# [          8] 	00001946 		00001946 		   OK
-# [          9] 	00002304 		00002304 		   OK
-# [         10] 	00002380 		00002380 		   OK
-# [         11] 	000017b8 		000017b8 		   OK
-# [         12] 	000011d0 		000011d0 		   OK
-# [         13] 	00000aa0 		00000aa0 		   OK
-#                 6080 << End Simulation >>
-# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(75)
-#    Time: 6080 ns  Iteration: 0  Instance: /convTB
-# Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 75
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ns  Iteration: 0  Region: /convTB/conv_task File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (32) for port 'dataZ'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv(17).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_conv.v Line: 93
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 140
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 20
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 156
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 172
-# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 191
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 225
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 238
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 251
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-run -all
-#                    0 << Start Simulation >>
-#     100 Read ID 1000500a
-#     160 Read STATUS 00000000
-#     900 Sending start
-#    4940 Done flag detected!
-#    5000 Read STATUS 00010001
-#    5280 Read STATUS 00010000
-# 		HDL 		C 		Result
-# [          0] 	00000201 		00000201 		   OK
-# [          1] 	000002b6 		000002b6 		   OK
-# [          2] 	000008c4 		000008c4 		   OK
-# [          3] 	00000bc8 		00000bc8 		   OK
-# [          4] 	00000ca7 		00000ca7 		   OK
-# [          5] 	00000f58 		00000f58 		   OK
-# [          6] 	00001875 		00001875 		   OK
-# [          7] 	000016c7 		000016c7 		   OK
-# [          8] 	00001946 		00001946 		   OK
-# [          9] 	00002304 		00002304 		   OK
-# [         10] 	00002380 		00002380 		   OK
-# [         11] 	000017b8 		000017b8 		   OK
-# [         12] 	000011d0 		000011d0 		   OK
-# [         13] 	00000aa0 		00000aa0 		   OK
-#                 6080 << End Simulation >>
-# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(75)
-#    Time: 6080 ns  Iteration: 0  Instance: /convTB
-# Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 75
+# ** Warning: (vsim-7) Failed to open readmem file "" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(31)
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram
+# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv(138)
+#    Time: 20040 ps  Iteration: 0  Instance: /conv_TB
+# Break in Module conv_TB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv line 138
 # Compile of conv_adder.v was successful.
 # Compile of conv_adder_reg.sv was successful.
 # Compile of conv_cntrK.sv was successful.
@@ -936,7 +456,6 @@ run -all
 # Compile of conv_register.v was successful.
 # Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
 # Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
 # Compile of simple_dual_port_ram_single_clk.v was successful.
 # Compile of ipm.v was successful.
 # Compile of ipm_register.v was successful.
@@ -946,18 +465,12 @@ run -all
 # Compile of ID1000500A_conv.v was successful.
 # Compile of ID1000500A_convCore.sv was successful.
 # Compile of convTB.sv was successful.
-# 24 compiles, 0 failed with no errors.
+# Compile of conv_TB.sv was successful.
+# Compile of conv_comparatorGreatOrEqualThan.v was successful.
+# 25 compiles, 0 failed with no errors.
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.convTB
-# Loading work.ID1000500A_conv
-# Loading work.ID1000500A_aip
-# Loading work.ID1000500A_aipModules
-# Loading work.aipConfigurationRegister
-# Loading work.ID1000500A_aipCtrl
-# Loading work.aipParametricMux
-# Loading work.aipId
-# Loading work.aipStatus
+# Loading work.conv_TB
 # Loading work.ID1000500A_convCore
 # Loading work.fsm_reg
 # Loading work.initializable_cntr
@@ -965,323 +478,61 @@ restart
 # Loading work.muxNto1
 # Loading work.register
 # Loading work.cntrK
-# Loading work.subtractor_reg
-# Loading work.memY_addr_block
 # Loading work.subtractor
+# Loading work.memY_addr_block
 # Loading work.adder_reg
 # Loading work.dataZ_block
 # Loading work.multiplier
 # Loading work.comparatorLessThan
 # Loading work.comparatorLessOrEqualThan
-# Loading work.simple_dual_port_ram_single_clk
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ns  Iteration: 0  Region: /convTB/conv_task File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (32) for port 'dataZ'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv(17).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_conv.v Line: 93
+# Loading work.comparatorGreatOrEqualThan
+# Loading work.simple_dual_port_ram_single_clk_sv
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_nxt_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(11).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 143
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 140
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 20
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 143
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor.sv(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_sub File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 41
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clrh'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(53).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/kBlock/conv_cntrK_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 54
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 156
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 160
 # ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 172
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 176
 # ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 191
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 195
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 225
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 229
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 238
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 242
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 251
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 255
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 266
 # ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_J_I File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 266
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 280
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorGreatOrEqualThan.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/conv_DUT/comparator_K_0 File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 280
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memX_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'write_en_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(20).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'write_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memY_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 83
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'read_addr_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
+# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (5) for port 'read_data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv Line: 101
 run -all
-#                    0 << Start Simulation >>
-#     100 Read ID 1000500a
-#     160 Read STATUS 00000000
-#     900 Sending start
-#    4940 Done flag detected!
-#    5000 Read STATUS 00010001
-#    5280 Read STATUS 00010000
-# 			HDL 		C 		Result
-# [          0] 	00000201 		00000201 		   OK
-# [          1] 	000002b6 		000002b6 		   OK
-# [          2] 	000008c4 		000008c4 		   OK
-# [          3] 	00000bc8 		00000bc8 		   OK
-# [          4] 	00000ca7 		00000ca7 		   OK
-# [          5] 	00000f58 		00000f58 		   OK
-# [          6] 	00001875 		00001875 		   OK
-# [          7] 	000016c7 		000016c7 		   OK
-# [          8] 	00001946 		00001946 		   OK
-# [          9] 	00002304 		00002304 		   OK
-# [         10] 	00002380 		00002380 		   OK
-# [         11] 	000017b8 		000017b8 		   OK
-# [         12] 	000011d0 		000011d0 		   OK
-# [         13] 	00000aa0 		00000aa0 		   OK
-#                 6080 << End Simulation >>
-# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(75)
-#    Time: 6080 ns  Iteration: 0  Instance: /convTB
-# Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 75
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# Compile of convTB.sv was successful.
-# 24 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.convTB
-# Loading work.ID1000500A_conv
-# Loading work.ID1000500A_aip
-# Loading work.ID1000500A_aipModules
-# Loading work.aipConfigurationRegister
-# Loading work.ID1000500A_aipCtrl
-# Loading work.aipParametricMux
-# Loading work.aipId
-# Loading work.aipStatus
-# Loading work.ID1000500A_convCore
-# Loading work.fsm_reg
-# Loading work.initializable_cntr
-# Loading work.adder
-# Loading work.muxNto1
-# Loading work.register
-# Loading work.cntrK
-# Loading work.subtractor_reg
-# Loading work.memY_addr_block
-# Loading work.subtractor
-# Loading work.adder_reg
-# Loading work.dataZ_block
-# Loading work.multiplier
-# Loading work.comparatorLessThan
-# Loading work.comparatorLessOrEqualThan
-# Loading work.simple_dual_port_ram_single_clk
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ns  Iteration: 0  Region: /convTB/conv_task File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (32) for port 'dataZ'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv(17).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_conv.v Line: 93
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 140
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 20
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 156
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 172
-# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 191
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 225
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 238
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 251
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-run -all
-#                    0 << Start Simulation >>
-#     100 Read ID 1000500a
-#     160 Read STATUS 00000000
-#     900 Sending start
-#    4940 Done flag detected!
-#    5000 Read STATUS 00010001
-#    5280 Read STATUS 00010000
-# 		HDL 		C 		Result
-# [          0] 	00000201 		00000201 			   OK
-# [          1] 	000002b6 		000002b6 			   OK
-# [          2] 	000008c4 		000008c4 			   OK
-# [          3] 	00000bc8 		00000bc8 			   OK
-# [          4] 	00000ca7 		00000ca7 			   OK
-# [          5] 	00000f58 		00000f58 			   OK
-# [          6] 	00001875 		00001875 			   OK
-# [          7] 	000016c7 		000016c7 			   OK
-# [          8] 	00001946 		00001946 			   OK
-# [          9] 	00002304 		00002304 			   OK
-# [         10] 	00002380 		00002380 			   OK
-# [         11] 	000017b8 		000017b8 			   OK
-# [         12] 	000011d0 		000011d0 			   OK
-# [         13] 	00000aa0 		00000aa0 			   OK
-#                 6080 << End Simulation >>
-# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(75)
-#    Time: 6080 ns  Iteration: 0  Instance: /convTB
-# Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 75
-# Compile of conv_adder.v was successful.
-# Compile of conv_adder_reg.sv was successful.
-# Compile of conv_cntrK.sv was successful.
-# Compile of conv_comparatorLessOrEqualThan.v was successful.
-# Compile of conv_comparatorLessThan.v was successful.
-# Compile of conv_dataZ_block.sv was successful.
-# Compile of conv_fsm_reg.sv was successful.
-# Compile of conv_initalizable_cntr.sv was successful.
-# Compile of conv_memY_addr_block.sv was successful.
-# Compile of conv_multiplier.sv was successful.
-# Compile of conv_muxNto1.v was successful.
-# Compile of conv_register.v was successful.
-# Compile of conv_simple_dual_port_ram_single_clk_sv.sv was successful.
-# Compile of conv_subtractor.sv was successful.
-# Compile of conv_subtractor_reg.sv was successful.
-# Compile of simple_dual_port_ram_single_clk.v was successful.
-# Compile of ipm.v was successful.
-# Compile of ipm_register.v was successful.
-# Compile of aipModules.v was successful.
-# Compile of ipm_ID1000500A_conv.v was successful.
-# Compile of ID1000500A_aip.v was successful.
-# Compile of ID1000500A_conv.v was successful.
-# Compile of ID1000500A_convCore.sv was successful.
-# Compile of convTB.sv was successful.
-# 24 compiles, 0 failed with no errors.
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.convTB
-# Loading work.ID1000500A_conv
-# Loading work.ID1000500A_aip
-# Loading work.ID1000500A_aipModules
-# Loading work.aipConfigurationRegister
-# Loading work.ID1000500A_aipCtrl
-# Loading work.aipParametricMux
-# Loading work.aipId
-# Loading work.aipStatus
-# Loading work.ID1000500A_convCore
-# Loading work.fsm_reg
-# Loading work.initializable_cntr
-# Loading work.adder
-# Loading work.muxNto1
-# Loading work.register
-# Loading work.cntrK
-# Loading work.subtractor_reg
-# Loading work.memY_addr_block
-# Loading work.subtractor
-# Loading work.adder_reg
-# Loading work.dataZ_block
-# Loading work.multiplier
-# Loading work.comparatorLessThan
-# Loading work.comparatorLessOrEqualThan
-# Loading work.simple_dual_port_ram_single_clk
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ns  Iteration: 0  Region: /convTB/conv_task File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (32) for port 'dataZ'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv(17).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_conv.v Line: 93
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 140
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 20
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 156
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 172
-# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 191
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 225
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 238
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 251
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-run -all
-#                    0 << Start Simulation >>
-#     100 Read ID 1000500a
-#     160 Read STATUS 00000000
-#     900 Sending start
-#    4940 Done flag detected!
-#    5000 Read STATUS 00010001
-#    5280 Read STATUS 00010000
-# 		HDL 		C 	Result
-# [          0] 	00000201 		00000201 		   OK
-# [          1] 	000002b6 		000002b6 		   OK
-# [          2] 	000008c4 		000008c4 		   OK
-# [          3] 	00000bc8 		00000bc8 		   OK
-# [          4] 	00000ca7 		00000ca7 		   OK
-# [          5] 	00000f58 		00000f58 		   OK
-# [          6] 	00001875 		00001875 		   OK
-# [          7] 	000016c7 		000016c7 		   OK
-# [          8] 	00001946 		00001946 		   OK
-# [          9] 	00002304 		00002304 		   OK
-# [         10] 	00002380 		00002380 		   OK
-# [         11] 	000017b8 		000017b8 		   OK
-# [         12] 	000011d0 		000011d0 		   OK
-# [         13] 	00000aa0 		00000aa0 		   OK
-#                 6080 << End Simulation >>
-# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(75)
-#    Time: 6080 ns  Iteration: 0  Instance: /convTB
-# Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 75
-run
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
-#    Time: 0 ns  Iteration: 0  Region: /convTB/conv_task File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv Line: 205
-# ** Warning: (vsim-3015) [PCDPC] - Port size (64) does not match connection size (32) for port 'dataZ'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv(17).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_conv.v Line: 93
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'k_out'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv(10).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 140
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_subtractor_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/kBlock/conv_cntr_subtractor_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_cntrK.sv Line: 20
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'data_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_register.v(58).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memX_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 156
-# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (5) for port 'memY_addr_o'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_memY_addr_block.sv(13).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memY_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 172
-# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'A_in'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv(9).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/memZ_addr_block_reg File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 191
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeY File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 225
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_I_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 238
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessThan.v(51).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_sizeX File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 251
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'A_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (32) for port 'B_i'. The port definition is at: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_comparatorLessOrEqualThan.v(6).
-#    Time: 0 ns  Iteration: 0  Instance: /convTB/DUT/CORE/comparator_J_valid File: /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/src/ID1000500A_convCore.sv Line: 264
-run -all
-#                    0 << Start Simulation >>
-#     100 Read ID 1000500a
-#     160 Read STATUS 00000000
-#     900 Sending start
-#    4940 Done flag detected!
-#    5000 Read STATUS 00010001
-#    5280 Read STATUS 00010000
-# 		HDL 		C 	Result
-# [          0] 	00000201 		00000201 		   OK
-# [          1] 	000002b6 		000002b6 		   OK
-# [          2] 	000008c4 		000008c4 		   OK
-# [          3] 	00000bc8 		00000bc8 		   OK
-# [          4] 	00000ca7 		00000ca7 		   OK
-# [          5] 	00000f58 		00000f58 		   OK
-# [          6] 	00001875 		00001875 		   OK
-# [          7] 	000016c7 		000016c7 		   OK
-# [          8] 	00001946 		00001946 		   OK
-# [          9] 	00002304 		00002304 		   OK
-# [         10] 	00002380 		00002380 		   OK
-# [         11] 	000017b8 		000017b8 		   OK
-# [         12] 	000011d0 		000011d0 		   OK
-# [         13] 	00000aa0 		00000aa0 		   OK
-#                 6080 << End Simulation >>
-# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(75)
-#    Time: 6080 ns  Iteration: 0  Instance: /convTB
-# Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 75
+# ** Warning: (vsim-7) Failed to open readmem file "" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_simple_dual_port_ram_single_clk_sv.sv(31)
+#    Time: 0 ps  Iteration: 0  Instance: /conv_TB/memZ_ram
+# ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv(138)
+#    Time: 20040 ps  Iteration: 0  Instance: /conv_TB
+# Break in Module conv_TB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_TB.sv line 138
+# End time: 15:20:49 on May 25,2024, Elapsed time: 0:12:43
+# Errors: 0, Warnings: 22

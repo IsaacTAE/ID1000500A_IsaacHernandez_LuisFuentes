@@ -7,26 +7,14 @@ module cntrK
 	input sel_in,
 	input en_in,
 	input  logic [DATA_WIDTH-1:0] sizeY_in,
-	output logic [DATA_WIDTH-1:0] k_out
+	output logic [DATA_WIDTH-1:0] k_out,
+	output logic [DATA_WIDTH-1:0] k_nxt_out
 );
 
 	logic [DATA_WIDTH-1:0] mux_result;
-
-	// ---------- SUBTRACTOR ------------ //
-   subtractor_reg
-   #(
-      .DATA_WIDTH    (DATA_WIDTH)
-   )
-   conv_cntr_subtractor_reg
-   (
-		.clk			(clk),
-		.rstn			(rstn),
-		.en_in		(en_in),
-		.A_i			(mux_result),
-		.B_i			(1),
-		.A_sub_B_o	(k_out)
-   );
+	logic [DATA_WIDTH-1:0] sub_result;
 	
+	assign k_nxt_out = sub_result;
 
 	// ---------- MUX2TO1 ------------ //
    muxNto1 
@@ -44,5 +32,33 @@ module cntrK
       .data_o   (mux_result)
    );
 
+	
+	// ---------- SUBTRACTOR ------------ //
+	subtractor
+	#(
+		.DATA_WIDTH (DATA_WIDTH)
+	)
+	conv_cntrK_sub
+	(
+		.A_i			(mux_result),
+		.B_i			('d1),
+		.A_sub_B_o	(sub_result)
+	);
+
+
+	// ---------- SUBTRACTOR ------------ //
+	register 
+   #(
+		.DATA_WIDTH (DATA_WIDTH)
+   )
+	conv_cntrK_reg
+   (
+		.clk     (clk),
+	   .rstn    (rstn),
+      .clrh    (0),   
+      .enh     (en_in),
+      .data_i  (sub_result),
+      .data_o  (k_out)
+    );
 
 endmodule
