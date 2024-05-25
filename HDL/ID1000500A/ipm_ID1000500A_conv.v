@@ -1,7 +1,7 @@
-// ipm <-> ID40048008_conv
+// ipm <-> ID1000500A_conv
 
 
-module ipm_ID40048008_conv
+module ipm_ID1000500A_conv
 (
     // Main
     input clk,
@@ -52,7 +52,7 @@ module ipm_ID40048008_conv
         .ipmPIPINTIn (wireINT)
     );
 
-    ID40048008_conv IP_CONV
+    ID1000500A_conv IP_CONV
     (
         .clk (clk),
         .rst_a (wireReset),

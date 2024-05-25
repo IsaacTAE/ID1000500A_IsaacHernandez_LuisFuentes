@@ -2,7 +2,7 @@
     1 tab == 4 spaces!
 */
 
-module ID40048008_conv
+module ID1000500A_conv
 (
     clk,
     rst_a,
@@ -52,7 +52,7 @@ module ID40048008_conv
     wire [STATUS_WIDTH-1:0] status_IPcore; //data of IP-core to set the flags value
     wire [INT_WIDTH-1:0] int_IPcore;
 
-    ID40048008_aip
+    ID1000500A_aip
     INTERFACE
     (
         .clk (clk),
@@ -85,7 +85,7 @@ module ID40048008_conv
         .startIPcore (start_IPcore)
     );
 
-    ID40048008_convCore
+    ID1000500A_convCore
     #(
         .ADDR_WIDTH (ADDR_WIDTH_MEMI),
         .DATA_WIDTH (DATA_WIDTH)

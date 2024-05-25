@@ -26,7 +26,7 @@ localparam	CYCLE		    = 'd20, // Define the clock work cycle in ns (user)
             //------------------------------------------------------------
 				SIZEX			 = 'd5,
 				SIZEY			 = 'd10,
-				SIZEOUT		 = SIZEX + SIZEY - 1, 
+				SIZEZ		 = SIZEX + SIZEY - 1, 
 				INT_BIT_DONE = 1'b0;
             
 
@@ -35,7 +35,7 @@ localparam	CYCLE		    = 'd20, // Define the clock work cycle in ns (user)
 reg			 readAIP;
 reg			 writeAIP;
 reg			 startAIP;
-reg	[ 4:0] configAIP;
+reg	[4:0]  configAIP;
 reg	[DATAWIDTH-1:0] dataInAIP;
 
 wire		    intAIP;
@@ -48,7 +48,7 @@ always #(CYCLE/2) clk = !clk;
 
 
 //DUT instance
-ID40048008_conv
+ID1000500A_conv
 DUT
 (
     .clk		(clk),
@@ -86,9 +86,17 @@ task conv_task;
    reg [DATAWIDTH-1:0] dataSety [SIZEY-1:0];
    reg [(DATAWIDTH*SIZEY)-1:0] dataSet_packedy;
 
-   reg [DATAWIDTH-1:0] result [SIZEOUT-1:0];
-   reg [(DATAWIDTH*SIZEOUT)-1:0] result_packed;
+   reg [DATAWIDTH-1:0] result [SIZEZ-1:0];
+   reg [(DATAWIDTH*SIZEZ)-1:0] result_packed;
    
+	reg   [DATAWIDTH-1:0] readMemValues [SIZEZ-1:0];
+
+	int filex; 
+	int filey; 
+	int filez;
+
+	static string ruta = "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/";
+
    integer i;
    begin
         // READ IP_ID
@@ -104,30 +112,40 @@ task conv_task;
         enableINT(INT_BIT_DONE);
         
 		// -------------------- MEM X -------------------//
+			filex = $fopen({ruta, "memX_values.ipd"}, "w");
         // RANDOM DATA GENERATION
         for (i = 0; i < SIZEX; i=i+1) begin //generating random data
             dataSetx[i] = $urandom%100;          
+				$fwrite(filex, "%h\n", dataSetx[i]);
         end     
+
+		  $fclose(filex);
         
         //****CONVERTION TO A SINGLE ARRAY
-        for (i = 0; i < (SIZEX) ; i=i+1) begin 
+        for (i = 0; i < SIZEX ; i=i+1) begin 
             dataSet_packedx[DATAWIDTH*i+:DATAWIDTH] = dataSetx[i]; 
         end        
         
         writeMem(MDATAINX, dataSet_packedx, SIZEX, 0);
         
 		// -------------------- MEM Y -------------------//
+			filey = $fopen({ruta, "memY_values.ipd"}, "w");
         // RANDOM DATA GENERATION
         for (i = 0; i < SIZEY; i=i+1) begin //generating random data
             dataSety[i] = $urandom%100;          
+				$fwrite(filey, "%h\n", dataSety[i]);
         end     
         
+		  $fclose(filey);
+
         //****CONVERTION TO A SINGLE ARRAY
-        for (i = 0; i < (SIZEY) ; i=i+1) begin 
+        for (i = 0; i < SIZEY ; i=i+1) begin 
             dataSet_packedy[DATAWIDTH*i+:DATAWIDTH] = dataSety[i]; 
         end        
         
         writeMem(MDATAINY, dataSet_packedy, SIZEY, 0);
+
+			$system({ruta, "convo"});
 
 
 		// -------------- CONFIG REG -----------------//
@@ -175,16 +193,23 @@ task conv_task;
 
 
         // READ MEM OUT
-        readMem(MDATAOUT, result_packed, SIZEOUT, 0);
+        readMem(MDATAOUT, result_packed, SIZEZ, 0);
         //*****CONVERTION TO A 2D ARRAY
-        for (i = 0; i < (SIZEOUT) ; i=i+1) begin 
+        for (i = 0; i < SIZEZ ; i=i+1) begin 
             result[i]= result_packed[DATAWIDTH*i+:DATAWIDTH]; 
         end
         
-        $display ("\t\tI \t\tO \t\tResult");
-        for (i = 0; i < SIZEOUT; i=i+1) begin
-            //read_interface(MDATAOUT, tb_data);
-            $display ("Read data %2d \t%8h", i, result[i]);
+			// Read result values from C program
+			filez = $fopen({ruta, "resultValues.txt"}, "r");	
+			for (i = 0; i < SIZEZ; i++) begin
+				$fscanf(filez, "%h\n", readMemValues[i]);
+			end
+			$fclose(filez);
+
+
+        $display ("\t\tHDL \t\tC \tResult");
+        for (i = 0; i < SIZEZ; i=i+1) begin
+            $display ("[%d] \t%h \t\t%h \t\t%s", i, result[i], readMemValues[i], (result[i] === readMemValues[i]) ? "OK" : "ERROR");
         end
         
         // DISABLE INTERRUPTIONS
@@ -280,7 +305,6 @@ task writeConfReg;
             #(CYCLE);
         end
 endtask
-
 
 
 task readMem;

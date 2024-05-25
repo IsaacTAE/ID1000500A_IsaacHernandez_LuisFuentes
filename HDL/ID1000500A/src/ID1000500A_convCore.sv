@@ -1,4 +1,4 @@
-module ID40048008_convCore
+module ID1000500A_convCore
 #(
 	parameter DATA_WIDTH = 8,
 	parameter ADDR_WIDTH  = 5
