@@ -84,6 +84,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	simple_dual_port_ram_single_clk_sv
 
+} {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module convTB
+
+Top level modules:
+	convTB
+
 } {} {}} /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv {1 {vlog -work work -sv -stats=none /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/basicBlocks/conv_adder_reg.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module adder_reg

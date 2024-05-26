@@ -66,7 +66,7 @@ int32_t ID1000500A_writeData(uint32_t* dataX, uint8_t sizeX, uint32_t* dataY, ui
 /* Read data*/
 int32_t ID1000500A_readData(uint32_t *data, uint8_t data_size)
 {
-    ID1000500A_aip->readMem("MMemOUT", data, data_size, ZERO_OFFSET);
+    ID1000500A_aip->readMem("MMemOut", data, data_size, ZERO_OFFSET);
     return 0;
 }
 
@@ -84,7 +84,7 @@ int32_t ID1000500A_configurationRegister(uint8_t sizeX, uint8_t sizeY)
 
     unsigned int confRegSize = 0;
     confRegSize = sizeY;
-    confRegSize = confRegSize << ADDR_WIDTH;
+    confRegSize <<= ADDR_WIDTH;
     confRegSize |= sizeX;
     ID1000500A_aip->writeConfReg("CConfReg", &confRegSize, ONE_FLIT, ZERO_OFFSET);
 
@@ -177,16 +177,16 @@ void ID1000500A_conv(uint8_t* X, uint8_t sizeX, uint8_t* Y, uint8_t sizeY, uint1
     uint32_t* dataZ32 = (uint32_t*)malloc(sizeZ * sizeof (uint32_t));
 
     // Inicializar en cero
-    memset(dataX32, 0, sizeX);
-    memset(dataY32, 0, sizeY);
-    memset(dataZ32, 0, sizeZ);
+    memset(dataX32, 0, sizeX * sizeof(uint32_t));
+    memset(dataY32, 0, sizeY * sizeof(uint32_t));
+    memset(dataZ32, 0, sizeZ * sizeof(uint32_t));
 
     // Copiar los datos de 8 bits a 32 bits
     for (int i=0; i<sizeX; i++)
-        dataX32[i] = X[i];
+        dataX32[i] = (uint32_t)X[i];
 
     for (int i=0; i<sizeY; i++)
-        dataY32[i] = Y[i];
+        dataY32[i] = (uint32_t)Y[i];
 
     ID1000500A_writeData(dataX32, sizeX, dataY32, sizeY);
     ID1000500A_configurationRegister(sizeX, sizeY);
@@ -195,5 +195,5 @@ void ID1000500A_conv(uint8_t* X, uint8_t sizeX, uint8_t* Y, uint8_t sizeY, uint1
     ID1000500A_readData(dataZ32, sizeZ);
 
     for (int i=0; i<sizeZ; i++)
-        result[i] = dataZ32[i];
+        result[i] = (uint16_t)dataZ32[i];
 }

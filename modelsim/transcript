@@ -3092,3 +3092,5 @@ run -all
 # ** Note: $stop    : /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv(77)
 #    Time: 6080 ns  Iteration: 0  Instance: /convTB
 # Break in Module convTB at /home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/convTB.sv line 77
+# End time: 00:47:38 on May 26,2024, Elapsed time: 6:20:58
+# Errors: 0, Warnings: 19
