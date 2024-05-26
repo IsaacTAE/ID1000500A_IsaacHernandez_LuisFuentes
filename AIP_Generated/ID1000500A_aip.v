@@ -1,6 +1,7 @@
-`define ID1000500A_MEM_IN 3
+`define ID1000500A_MEM_IN 2
 
-// `define ID1000500A_MEM_OUT 0
+`define ID1000500A_MEM_OUT 1
+
 `define ID1000500A_CONF_REG 1
 
 
@@ -25,15 +26,16 @@ module ID1000500A_aip
   //--- IP-core ---//
   rdDataMemIn_0,
 rdDataMemIn_1,
-rdDataMemIn_2,
 
 rdAddrMemIn_0,
 rdAddrMemIn_1,
-rdAddrMemIn_2,
 
 
-  
+  wrDataMemOut_0,
 
+wrAddrMemOut_0,
+
+wrEnMemOut_0,
 
 
   rdDataConfigReg,
@@ -77,10 +79,11 @@ intIPCore_Done,
 input wire [MEM_ADDR_MAX_WIDTH-1:0] rdAddrMemIn_0;
 output wire [DATA_WIDTH-1:0] rdDataMemIn_1;
 input wire [MEM_ADDR_MAX_WIDTH-1:0] rdAddrMemIn_1;
-output wire [DATA_WIDTH-1:0] rdDataMemIn_2;
-input wire [MEM_ADDR_MAX_WIDTH-1:0] rdAddrMemIn_2;
 
-  
+  input [DATA_WIDTH-1:0] wrDataMemOut_0;
+input [MEM_ADDR_MAX_WIDTH-1:0] wrAddrMemOut_0;
+input wrEnMemOut_0;
+
   output [(CONF_REG_SIZE*DATA_WIDTH)-1:0] rdDataConfigReg;
   
   
@@ -106,13 +109,16 @@ input intIPCore_Done;
     .intAIP (intAIP),
 
     //--- IP-core ---//
-    .rdDataMemIn({rdDataMemIn_2, rdDataMemIn_1, rdDataMemIn_0}),
+    .rdDataMemIn({rdDataMemIn_1, rdDataMemIn_0}),
 
-    .rdAddrMemIn({rdAddrMemIn_2, rdAddrMemIn_1, rdAddrMemIn_0}),
+    .rdAddrMemIn({rdAddrMemIn_1, rdAddrMemIn_0}),
 
-    
-    
-    
+    .wrDataMemOut({wrDataMemOut_0}),
+
+    .wrAddrMemOut({wrAddrMemOut_0}),
+
+    .wrEnMemOut({wrEnMemOut_0}),
+
     .rdDataConfigReg(rdDataConfigReg),
     
     
@@ -183,7 +189,7 @@ module ID1000500A_aipModules
 
   localparam IP_ID = 32'h1000500A;
 
-  localparam SEL_BITS = 'd1;
+  localparam SEL_BITS = 'd2;
 
   localparam DATA_WIDTH = 32;
 
@@ -196,15 +202,15 @@ module ID1000500A_aipModules
   localparam STATUS_WIDTH = 8;
 
   `ifdef ID1000500A_MEM_IN
-  localparam [(`ID1000500A_MEM_IN*MEM_ADDR_MAX_WIDTH)-1:0] MEM_IN_ADDR_WIDTH = { 16'd6, 16'd5, 16'd5 };
+  localparam [(`ID1000500A_MEM_IN*MEM_ADDR_MAX_WIDTH)-1:0] MEM_IN_ADDR_WIDTH = { 16'd5, 16'd5 };
 
-  localparam [((`ID1000500A_MEM_IN*2)*CONFIG_WIDTH)-1:0] CONFIG_MEM_IN = { 5'b00101, 5'b00100, 5'b00011, 5'b00010, 5'b00001, 5'b00000 };
+  localparam [((`ID1000500A_MEM_IN*2)*CONFIG_WIDTH)-1:0] CONFIG_MEM_IN = { 5'b00011, 5'b00010, 5'b00001, 5'b00000 };
   `endif
 
   `ifdef ID1000500A_MEM_OUT
-  localparam [(`ID1000500A_MEM_OUT*MEM_ADDR_MAX_WIDTH)-1:0] MEM_OUT_ADDR_WIDTH = {  };
+  localparam [(`ID1000500A_MEM_OUT*MEM_ADDR_MAX_WIDTH)-1:0] MEM_OUT_ADDR_WIDTH = { 16'd6 };
 
-  localparam [((`ID1000500A_MEM_OUT*2)*CONFIG_WIDTH)-1:0] CONFIG_MEM_OUT = {  };
+  localparam [((`ID1000500A_MEM_OUT*2)*CONFIG_WIDTH)-1:0] CONFIG_MEM_OUT = { 5'b00101, 5'b00100 };
   `endif
 
   `ifdef ID1000500A_CONF_REG

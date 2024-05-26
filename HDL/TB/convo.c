@@ -9,7 +9,7 @@ void writeMemOutValues(const char* file_name, uint64_t* memOut, uint8_t sizeX, u
 
 static char* ruta = "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/";
 
-int main(void)
+int main(int argc, char** argv)
 {
 	uint64_t dataZ;
 	uint32_t dataX, dataY;
@@ -22,6 +22,12 @@ int main(void)
 
 	sizeX = 10;
 	sizeY = 5;
+
+	if (argc == 3){ // Se pasaron dos argumentos , sizeX y sizeY
+		sizeX = atoi(argv[1]);
+		sizeY = atoi(argv[2]);
+	}
+
 	memX_addr = 0;
 	memY_addr = 0;
 	memZ_addr = 0;

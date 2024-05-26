@@ -17,7 +17,7 @@ module ID1000500A_conv
 );
 
     localparam DATA_WIDTH = 'd32; //define data length
-    localparam MEM_ADDR_MAX_WIDTH = 'd16;
+    localparam MEM_ADDR_MAX_WIDTH = 'd6;
     localparam ADDR_WIDTH_MEMI = 'd5; //define Memory In depth
     localparam ADDR_WIDTH_MEMO = 'd6; //define Memory Out depth
     localparam SIZE_CR = 'd1; //define Configuration Register depth

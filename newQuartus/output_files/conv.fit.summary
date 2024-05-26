@@ -1,12 +1,12 @@
-Fitter Status : Successful - Sat May 18 23:39:26 2024
+Fitter Status : Successful - Sat May 25 17:31:56 2024
 Quartus Prime Version : 23.1std.0 Build 991 11/28/2023 SC Lite Edition
 Revision Name : conv
-Top-level Entity Name : ipm_ID40048008_conv
+Top-level Entity Name : ipm_ID1000500A_conv
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
 Logic utilization (in ALMs) : 188 / 32,070 ( < 1 % )
-Total registers : 362
+Total registers : 365
 Total pins : 18 / 457 ( 4 % )
 Total virtual pins : 0
 Total block memory bits : 4,096 / 4,065,280 ( < 1 % )

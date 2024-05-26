@@ -1,5 +1,7 @@
 `timescale 1ns/1ns
 
+`define PATH "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/"
+
 module convTB();
 
             //----------------------------------------------------------
@@ -25,7 +27,7 @@ localparam	CYCLE		    = 'd20, // Define the clock work cycle in ns (user)
             //..................PARAMETERS DEFINED BY THE USER............
             //------------------------------------------------------------
 				SIZEX			 = 'd10,
-				SIZEY			 = 'd10,
+				SIZEY			 = 'd5,
 				SIZEZ		 = SIZEX + SIZEY - 1, 
 				INT_BIT_DONE = 1'b0;
             
@@ -95,8 +97,7 @@ task conv_task;
 	int filey; 
 	int filez;
 
-	static string ruta = "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/";
-
+	string command;
    integer i;
    begin
         // READ IP_ID
@@ -110,34 +111,27 @@ task conv_task;
         //(INTERRUPTIONS) 
         //FOR ENABLING INTERRUPTIONS
         enableINT(INT_BIT_DONE);
+
+			// Generate random values
+			command = {`PATH, "genMemValues ", "\"", `PATH, "\""};
+			// $display ("%s\n",command);
+			$system(command);
+
         
 		// -------------------- MEM X -------------------//
-			filex = $fopen({ruta, "memX_values.ipd"}, "w");
-        // RANDOM DATA GENERATION
-        for (i = 0; i < SIZEX; i=i+1) begin //generating random data
-            dataSetx[i] = $urandom%100;          
-				$fwrite(filex, "%h\n", dataSetx[i]);
-        end     
 
-		  // $readmemh({ruta, "memX_values.ipd"});
-		  $fclose(filex);
+		   $readmemh({`PATH, "memX_values.ipd"}, dataSetx);
         
         //****CONVERTION TO A SINGLE ARRAY
         for (i = 0; i < SIZEX ; i=i+1) begin 
             dataSet_packedx[DATAWIDTH*i+:DATAWIDTH] = dataSetx[i]; 
         end        
-        
+
         writeMem(MDATAINX, dataSet_packedx, SIZEX, 0);
         
 		// -------------------- MEM Y -------------------//
-			filey = $fopen({ruta, "memY_values.ipd"}, "w");
-        // RANDOM DATA GENERATION
-        for (i = 0; i < SIZEY; i=i+1) begin //generating random data
-            dataSety[i] = $urandom%100;          
-				$fwrite(filey, "%h\n", dataSety[i]);
-        end     
-        
-		  $fclose(filey);
+
+		   $readmemh({`PATH, "memY_values.ipd"}, dataSety);
 
         //****CONVERTION TO A SINGLE ARRAY
         for (i = 0; i < SIZEY ; i=i+1) begin 
@@ -146,7 +140,8 @@ task conv_task;
         
         writeMem(MDATAINY, dataSet_packedy, SIZEY, 0);
 
-			$system({ruta, "convo"});
+		  // Calculate the values with the C model program 
+			$system({`PATH, "convo"});
 
 
 		// -------------- CONFIG REG -----------------//
@@ -200,7 +195,7 @@ task conv_task;
             result[i]= result_packed[DATAWIDTH*i+:DATAWIDTH]; 
         end
         
-		  $readmemh({ruta, "resultValues.txt"}, readMemValues);
+		  $readmemh({`PATH, "resultValues.txt"}, readMemValues);
 
         $display ("\t\tHDL \t\tC \tResult");
         for (i = 0; i < SIZEZ; i=i+1) begin

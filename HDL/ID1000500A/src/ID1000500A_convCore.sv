@@ -35,8 +35,8 @@ module ID1000500A_convCore
 	logic [DATA_WIDTH-1:0] i_nxt;
 	logic [DATA_WIDTH-1:0] j_reg;
 	logic [DATA_WIDTH-1:0] j_nxt;
-	logic [DATA_WIDTH-1:0] k_reg;
-	logic [DATA_WIDTH-1:0] k_nxt;
+	logic [ADDR_WIDTH-1:0] k_reg;
+	logic [ADDR_WIDTH-1:0] k_nxt;
 
 	// Wire for comp_j_valid blocks
 	logic comp_j_i;
@@ -171,7 +171,7 @@ module ID1000500A_convCore
 	// ------------ MEMY_ADDR -------------- //
 	memY_addr_block 
 	#(
-		.DATA_WIDTH		(DATA_WIDTH)
+		.DATA_WIDTH		(ADDR_WIDTH)
 	)
 	memY_addr_block_reg 
 	(
