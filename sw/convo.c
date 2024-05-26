@@ -7,7 +7,7 @@ void readMemFile(const char* file_name, uint32_t* mem);
 void loadMemValues(uint32_t* memX, uint32_t* memY);
 void writeMemOutValues(const char* file_name, uint64_t* memOut, uint8_t sizeX, uint8_t sizeY);
 
-static char* ruta = "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/";
+static char* ruta = "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/sw/";
 
 int main(int argc, char** argv)
 {

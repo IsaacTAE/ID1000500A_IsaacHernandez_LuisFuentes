@@ -1,8 +1,9 @@
 `timescale 1ns/1ns
 
-`define PATH "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/"
+// Path to the directory with the .ipd files with the mem values
+`define PATH "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/sw/"
 
-module convTB();
+module ID1000500ATB();
 
             //----------------------------------------------------------
             //.......MANDATORY TB PARAMETERS............................
@@ -120,7 +121,7 @@ task conv_task;
         
 		// -------------------- MEM X -------------------//
 
-		   $readmemh({`PATH, "memX_values.ipd"}, dataSetx);
+		   $readmemh({`PATH, "memX_values.ipd"}, dataSetx, 0, SIZEX-1);
         
         //****CONVERTION TO A SINGLE ARRAY
         for (i = 0; i < SIZEX ; i=i+1) begin 
@@ -131,7 +132,7 @@ task conv_task;
         
 		// -------------------- MEM Y -------------------//
 
-		   $readmemh({`PATH, "memY_values.ipd"}, dataSety);
+		   $readmemh({`PATH, "memY_values.ipd"}, dataSety, 0, SIZEY-1);
 
         //****CONVERTION TO A SINGLE ARRAY
         for (i = 0; i < SIZEY ; i=i+1) begin 

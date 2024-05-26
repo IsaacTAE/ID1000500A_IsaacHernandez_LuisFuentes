@@ -6,8 +6,6 @@
 
 #define ADDR_LOCATIONS 32 
 
-// static char* ruta = "/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/";
-
 void writeToFile(FILE* archivo, const uint32_t* values);
 
 int main (int argc, char** argv){
