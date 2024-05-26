@@ -14,7 +14,7 @@ class convolutioner:
         self.__pyaip = pyaip_init(connector, nic_addr, port, csv_file)
 
         if self.__pyaip is None:
-            logging.debug(error)
+            logging.debug("pyaip is None")
 
         ## Array of strings with information read
         self.dataRX = []
@@ -22,9 +22,9 @@ class convolutioner:
         ## IP Convolutioner IP-ID
         self.IPID = 0
 
-        self.__getID()
+        self.__getID__()
 
-        self.__clearStatus()
+        self.__clearStatus__()
 
         logging.debug(f"IP Convolutioner controller created with IP ID {self.IPID:08x}")
 
@@ -70,11 +70,15 @@ class convolutioner:
     # @param self Object pointer
     # @param msec Delay in millisecond
     def __configurationRegister__(self, dataSizeX, dataSizeY):
-        confRegSize = dataSizeX * dataSizeY
+        confRegSize = dataSizeY
+        confRegSize <<= 5
+        confRegSize |= dataSizeX
+
+        confRegSize = [confRegSize]
 
         self.__pyaip.writeConfReg('CConfReg', confRegSize, 1, 0)
 
-        logging.debug(f"Configuration Register size is {confRegSize} ms")
+        logging.debug(f"Configuration Register sizeX = {dataSizeX}, sizeY = {dataSizeY}")
 
     ## Enable IP Convolutioner interruptions
     #
@@ -167,10 +171,10 @@ if __name__ == "__main__":
 
     logging.basicConfig(level=logging.DEBUG)
     connector = '/dev/ttyACM0'
-    csv_file = '/home/lagisaurio/Documents/Quartus/Convo_New/AIP_Generated/ID1000500A_config.csv'
+    csv_file = '/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/ID1000500A/config/ID1000500A_config.csv'
     addr = 1
     port = 0
-    aip_mem_size = 32 #Originalmente 8
+    aip_mem_size = 31 #Originalmente 8
 
     try:
         conv = convolutioner(connector, addr, port, csv_file)
@@ -182,12 +186,12 @@ if __name__ == "__main__":
     random.seed(1)
 
     X = [random.randrange(2**32) for i in range(0, aip_mem_size)]
-    Y = [random.randrange(2 ** 32) for i in range(0, aip_mem_size)]
+    Y = [random.randrange(2**32) for i in range(0, aip_mem_size)]
 
     try:
         result = conv.conv(X,Y)
         logging.info(f"Convolution result: {[f'{x:08x}' for x in result]}")
     except Exception as e:
-        logging.error(f"Error in convlution {str(e)}")
+        logging.error(f"Error in convolution {str(e)}")
     conv.__finish__()
     logging.info("The End")
