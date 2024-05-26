@@ -23,17 +23,17 @@
                 "enom": "MMemY",
                 "size": "32",
                 "val": "5'b00010"
-            },
+            }
+        ],
+        "memInStream": {
+        },
+        "memOut": [
             {
                 "comment": "Output Memory",
                 "enom": "MMemOut",
                 "size": "64",
                 "val": "5'b00100"
             }
-        ],
-        "memInStream": {
-        },
-        "memOut": [
         ],
         "memOutStream": {
         }
