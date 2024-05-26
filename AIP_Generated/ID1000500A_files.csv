@@ -1,9 +1,0 @@
-type,name
-top,ID1000500A_aip
-file,ipm_ID1000500A_conv.v
-file,../src/ID1000500A_conv.v
-file,../src/ID1000500A_convCore.v
-file,../src/ID1000500A_aip.v
-file,../basicblocks/memories/simple_dual_port_ram_single_clk.v
-file,../basicblocks/aip/aipModules.v
-

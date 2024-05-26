@@ -1,0 +1,7 @@
+type,name
+top,./src/ipm_ID1000500A_conv
+file,./src/ID1000500A_conv.v
+file,./src/ID1000500A_convCore.v
+file,./src/ID1000500A_aip.v
+file,./basicBlocks/aip/aipModules.v
+file,./basicBlocks/simple_dual_port_ram_single_clk.v
