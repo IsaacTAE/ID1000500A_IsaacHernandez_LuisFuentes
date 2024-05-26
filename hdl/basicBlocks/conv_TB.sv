@@ -60,7 +60,7 @@ module conv_TB;
 	#(
 		.DATA_WIDTH		(DATA_WIDTH),
 		.ADDR_WIDTH		(ADDR_WIDTH),
-		.TXT_FILE		("/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/memX_values.ipd")
+		.TXT_FILE		("/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/sw/memX_values.ipd")
 	) 
 	memX_ram
 	(
@@ -78,7 +78,7 @@ module conv_TB;
 	#(
 		.DATA_WIDTH		(DATA_WIDTH),
 		.ADDR_WIDTH		(ADDR_WIDTH),
-		.TXT_FILE		("/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/HDL/TB/memY_values.ipd")
+		.TXT_FILE		("/home/ihc/Documents/TAE/Soc/ConvolucionadorPractica1/CodigoSV/sw/memY_values.ipd")
 	) 
 	memY_ram
 	(
